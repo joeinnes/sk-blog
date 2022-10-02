@@ -2,11 +2,17 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-	content: ['./src/**/*.{html,js,svelte,ts}'],
+	content: ['./src/**/*.{html,js,svelte,ts,md}'],
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ['Avenir Next', 'Avenir', ...defaultTheme.fontFamily.sans]
+				sans: [
+					'Avenir Next',
+					'Avenir',
+					'Century Gothic',
+					'Gill Sans',
+					...defaultTheme.fontFamily.sans
+				]
 			}
 		}
 	},

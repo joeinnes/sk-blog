@@ -3,6 +3,7 @@
   import { page_bg} from '$lib/stores/page-bg.ts';
   import { getAverageRGB } from '$lib/actions/getAverageRGB';
   import type {PageData} from './$types';
+  import Signature from '$lib/components/Signature.svelte';
   let bg:string;
   const { slug } = $page.params;
   export let data: PageData;
@@ -14,13 +15,9 @@
  }).format(date);
     return formattedDate;
   }
-  $: {
-    console.log(bg);
-    $page_bg = bg
-  }
 </script>
 
-<svelte:head><title>{data.title}</title></svelte:head>
+<svelte:head><title>Joe Innes | {data.title}</title></svelte:head>
 <article style="
   --content-bg-colour: {data.content_bg_colour || 'white'};
   background-color: var(--content-bg-colour);
@@ -31,7 +28,9 @@
         background-image: url('{data.featured_image ?? 'https://source.unsplash.com/random/?' + data.title}')
       "
       >
-      <img class="hidden" src={data.featured_image ?? 'https://source.unsplash.com/random/?' + data.title} />
+      {#if !$page_bg}
+      <img class="hidden" src={data.featured_image ?? 'https://source.unsplash.com/random/?' + data.title} use:getAverageRGB={page_bg}  />
+      {/if}
       {#if data.title_overlays_featured_image}
       <hgroup class="text-white header-on-image">
         <h1 class="text-4xl text-white mb-0 lg:mb-0">{data.title}</h1>
@@ -47,6 +46,9 @@
       </hgroup>
       {/if}
     <svelte:component this={data.content}></svelte:component>
+    <div class="flex justify-end" style="color: {$page_bg}">
+      <Signature />
+    </div>
   </div>
 </article>
 
