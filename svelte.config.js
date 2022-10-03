@@ -1,12 +1,18 @@
 import preprocess from 'svelte-preprocess';
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-static';
 import { mdsvex } from 'mdsvex';
 import rehypeExternalLinks from 'rehype-external-links';
+import fs from 'fs';
+
+const allPostFiles = fs.readdirSync('./src/content').map((el) => '/' + el.slice(0, -3));
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		prerender: {
+			entries: ['*', ...allPostFiles]
+		}
 	},
 	extensions: ['.svelte', '.md'],
 	preprocess: [

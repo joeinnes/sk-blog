@@ -1,6 +1,6 @@
-import { PageLoad } from './$types';
+import type { PageServerLoad } from './$types';
 
-export const load: PageLoad = async () => {
+export const load: PageServerLoad = async () => {
 	const allPostFiles = import.meta.glob('/src/content/*.md');
 	const iterablePostFiles = Object.entries(allPostFiles);
 
