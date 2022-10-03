@@ -5,8 +5,7 @@ date: 2022-10-03T19:31:39.247Z
 draft: false
 featured_image: /media/uploads/cup_shots_lapsang_souchong_2000x.webp
 title_overlays_featured_image: false
-page_bg: url('https://twgtea.com/Files/Images/TWG-Tea/Products/detailzoom1200x900/T627.jpg')
-  repeat
+page_bg: ""
 ---
 M﻿y order from the British Store arrived today, with, amongst other things, 3 boxes of Lapsang Souchong tea. I first came across lapsang souchong as in ingredient in a smoked duck dish a friend of mine cooked for Masterchef while I was at university, and I was fortunate enough to have been a guinea pig. S﻿he didn't win, but the dish was delicious, and I was grateful to have been allowed to help her practice.
 
