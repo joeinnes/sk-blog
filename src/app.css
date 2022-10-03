@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+	scrollbar-gutter: stable;
+}
 .content > * {
 	grid-column: 2;
 }

@@ -31,6 +31,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"fast-average-color": "^9.1.1"
+		"@formkit/auto-animate": "1.0.0-beta.3",
+		"fast-average-color": "^9.1.1",
+		"rehype-external-links": "^2.0.1"
 	}
 }
