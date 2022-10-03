@@ -21,12 +21,13 @@ collections:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Draft', name: 'draft', widget: 'boolean' }
+      - { label: 'Draft', name: 'draft', widget: 'boolean', default: false }
       - { label: 'Featured Image', name: 'featured_image', widget: 'image' }
       - {
           label: 'Title Should Overlay Image?',
           name: 'title_overlays_featured_image',
-          widget: 'boolean'
+          widget: 'boolean',
+          default: false
         }
-      - { label: 'Page Background', name: 'page_bg', widget: 'string' }
+      - { label: 'Page Background', name: 'page_bg', widget: 'string', default: '' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
