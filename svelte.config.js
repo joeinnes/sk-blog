@@ -11,7 +11,20 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		prerender: {
-			entries: ['*', ...allPostFiles]
+			entries: ['*', ...allPostFiles],
+			onError: ({ status, path, referrer, referenceType }) => {
+				if (path.startsWith('/content/images')) {
+					console.warn('Missing an image!');
+					console.warn(
+						`${status} ${path}${referrer ? ` (${referenceType} from ${referrer})` : ''}`
+					);
+					return;
+				} else {
+					console.error(
+						`${status} ${path}${referrer ? ` (${referenceType} from ${referrer})` : ''}`
+					);
+				}
+			}
 		}
 	},
 	extensions: ['.svelte', '.md'],
