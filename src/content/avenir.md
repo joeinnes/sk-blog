@@ -10,16 +10,16 @@ date: 2022-10-02 13:30
 Recently I've been really enjoying using Avenir for stuff. I love its simplicity. The geometric tittle above a rectangular stem of the 'i', the soft, friendly, regular curves of the a's and the e's. It's just a very nice font.
 
 <div class="full-bleed not-prose">
-  <FontSample fontName="Avenir" />
+  <FontSample fontName="Avenir" pinHue={201} />
 </div>
 
-Unfortunately, if you're not on a Mac, you'll already see what the problem is. It seems as though it's only available on macOS, and Windows doesn't have it installed by default. I'm not sure what could be the solution, perhaps Gill Sans?
+Unfortunately, if you're not on a Mac, you'll already see what the problem is. It seems as though it's only available on macOS, and Windows doesn't have it installed by default. There are a few very pretty fonts which could be used in its place, but they're all Mac only (Avant Garde, Futura...). But the only similar font with wider adoption seems to be Gill Sans.
 
 <div class="full-bleed not-prose">
   <FontSample fontName="Gill Sans" wordTest="COLLEGIUM" />
 </div>
 
-But Gill Sans is not as regular - the shoulders and collars are not perfectly rounded, the font feels a little... chubbier?
+But Gill Sans is not as regular - the shoulders and collars are not perfectly rounded, the font feels a little... chubbier? And according to [CSS Font Stack](https://www.cssfontstack.com/Gill-Sans), it's still only compatible with less than 60% of Windows computers.
 
 <div class="full-bleed not-prose">
   <FontSample fontName="Satoshi" fontSrc="https://api.fontshare.com/v2/css?f[]=satoshi@1&display=swap" wordTest="Wigglesworth" />

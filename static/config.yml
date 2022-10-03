@@ -1,0 +1,22 @@
+backend:
+  name: github
+  branch: main # Branch to update (optional; defaults to master)
+  repo: joeinnes/blog
+
+media_folder: "static/media/uploads"
+public_folder: "/media/uploads"
+
+collections:
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog" # Used in the UI
+    folder: src/content" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "featured_image", widget: "image"}
+      - {label: "Title Should Overlay Image?", name: "title_overlays_featured_image", widget: "boolean"}
+      - {label: "Page Background", name: "page_bg", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}

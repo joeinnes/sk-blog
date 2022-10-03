@@ -2,11 +2,13 @@
   export let fontName: string;
   export let fontSrc: string;
   export let wordTest: string = 'Be Traist';
+  export let pinHue: number;
   let lowercase = '';
   for (let i = 0; i < 26; i++) {
     lowercase += String.fromCharCode(97+i);
   }
-  const color = fontName.split('').reduce((acc, cur) => acc += cur.charCodeAt(0), 0) % 360;
+  // I'll calculate the colour's hue by adding up the character codes in the font's name, and then working out the remainder if you divide by 360 (as in, 360 degrees)
+  const color = pinHue || fontName.split('').reduce((acc, cur) => acc += cur.charCodeAt(0), 0) % 360;
 </script>
 
 <svelte:head>

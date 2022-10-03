@@ -15,6 +15,7 @@
  }).format(date);
     return formattedDate;
   }
+  $page_bg = $page.data.page_bg
 </script>
 
 <svelte:head><title>Joe Innes | {data.title}</title></svelte:head>
@@ -22,14 +23,14 @@
   --content-bg-colour: {data.content_bg_colour || 'white'};
   background-color: var(--content-bg-colour);
   "
-  class="prose lg:prose-xl prose-headings:font-bold prose-zinc">
+  class="prose lg:prose-xl prose-headings:font-bold prose-zinc article">
   <div class="aspect-[21/9] header-image content pb-6" class:darken-bottom={data.title_overlays_featured_image}
       style="
         background-image: url('{data.featured_image ?? 'https://source.unsplash.com/random/?' + data.title}')
       "
       >
       {#if !$page_bg}
-      <img class="hidden" src={data.featured_image ?? 'https://source.unsplash.com/random/?' + data.title} use:getAverageRGB={page_bg}  />
+      <img class="hidden" src={data.featured_image ?? 'https://source.unsplash.com/random/?' + data.title} use:getAverageRGB={page_bg} aria-hidden="true" alt="hidden" />
       {/if}
       {#if data.title_overlays_featured_image}
       <hgroup class="text-white header-on-image">
@@ -53,7 +54,7 @@
 </article>
 
 <style>
-  :global(article) {
+  :global(.article) {
     @apply rounded-xl mx-auto drop-shadow-2xl relative overflow-hidden bg-white max-w-[75ch];
   }
 
