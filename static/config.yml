@@ -1,7 +1,7 @@
 backend:
-  name: github
+  name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
-  repo: joeinnes/blog
+  repo: joeinnes/sk-blog
 
 media_folder: "static/media/uploads"
 public_folder: "/media/uploads"
