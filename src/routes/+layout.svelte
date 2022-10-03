@@ -39,10 +39,10 @@
 	}
 
 	header {
-		@apply py-2 my-10 lg:py-12 lg:my-0 pl-8 pr-3 lg:px-4 lg:py-4 fixed z-10 rounded-r-xl bg-[#ffffffcc] lg:bg-inherit;
+		@apply py-2 my-10 lg:my-0 pl-8 pr-3 lg:px-4 lg:py-4 fixed z-10 rounded-r-xl bg-[#ffffffcc] lg:bg-inherit;
 	}
 
 	.logo {
-		@apply border-2 border-black lg:border-4 px-2 p-1 lg:p-4 font-bold text-2xl lg:text-3xl aspect-square inline-flex flex items-center justify-center bg-white;
+		@apply border-2 border-black lg:border-4 px-2 p-1 lg:p-4 font-bold text-2xl lg:text-3xl aspect-square  flex items-center justify-center bg-white;
 	}
 </style>
