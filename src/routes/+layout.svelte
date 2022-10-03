@@ -35,7 +35,7 @@
 		@apply bg-cover bg-center transition-colors min-h-screen;
 	}
 	main {
-		@apply px-4 pb-8 pt-8 container mx-auto;
+		@apply px-4 pb-8 pt-32 lg:pt-8 container mx-auto;
 	}
 
 	header {
@@ -43,6 +43,6 @@
 	}
 
 	.logo {
-		@apply border-2 border-black lg:border-4 px-2 p-1 lg:p-4 font-bold text-2xl lg:text-3xl aspect-square  flex items-center justify-center bg-white;
+		@apply border-2 border-black lg:border-4 px-2 p-1 lg:p-4 font-bold text-2xl lg:text-4xl aspect-square flex items-center justify-center bg-white w-12 lg:w-20;
 	}
 </style>

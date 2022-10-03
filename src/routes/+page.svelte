@@ -14,14 +14,14 @@
 	}
 </script>
 
-<div class="mb-8 flex gap-2 place-items-center" use:autoAnimate>
-	<h1 class="text-5xl font-bold pr-8">Joe Innes's Blog</h1>
+<div class="mb-8 flex gap-2 place-items-center px-4 lg:px-0" use:autoAnimate>
+	<h1 class="text-3xl lg:text-5xl font-bold pr-8">Joe Innes's Blog</h1>
 
 	{#if search}
 		<input
 			bind:this={searchbar}
 			bind:value={searchString}
-			class="border-b-2 py-2 px-4 w-64 outline-none text-xl focus-within:border-b-black transition-colors"
+			class="absolute lg:relative border-b-2 py-2 px-4 w-64 outline-none text-xl focus-within:border-b-black transition-colors"
 			placeholder="Search..."
 		/>
 	{/if}
@@ -74,7 +74,7 @@
 		@apply py-8;
 	}
 	.post-title {
-		@apply font-bold text-2xl;
+		@apply font-bold text-xl lg:text-2xl;
 	}
 	.post-date {
 		@apply font-light text-sm text-gray-500;

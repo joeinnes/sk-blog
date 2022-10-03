@@ -74,7 +74,7 @@
 
 <style>
 	:global(.article) {
-		@apply rounded-xl mx-auto drop-shadow-2xl relative overflow-hidden bg-white max-w-[75ch];
+		@apply rounded-xl mx-auto drop-shadow-2xl relative overflow-hidden bg-white max-w-[65ch] -mt-28 lg:mt-0;
 	}
 
 	.header-image {
@@ -86,16 +86,17 @@
 	}
 
 	.content {
-		@apply grid gap-x-4 max-w-full;
+		@apply grid py-8;
 		grid-template-columns: 1fr min(55ch, 100%) 1fr;
 	}
 
 	:global(.content > *) {
+		@apply px-4;
 		grid-column: 2;
 	}
 
 	:global(img, .full-bleed, p:has(img)) {
-		@apply max-w-full w-full;
+		@apply max-w-full w-full p-0;
 		grid-column: 1 / -1 !important;
 	}
 </style>
