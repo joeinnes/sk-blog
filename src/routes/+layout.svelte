@@ -35,7 +35,7 @@
 		@apply bg-cover bg-center transition-colors min-h-screen;
 	}
 	main {
-		@apply px-4 pb-8 pt-32 lg:pt-8 container mx-auto;
+		@apply px-4 pb-8 pt-32 lg:pt-8 container mx-auto max-w-6xl;
 	}
 
 	header {

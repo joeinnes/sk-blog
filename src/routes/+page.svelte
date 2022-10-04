@@ -53,11 +53,13 @@
 				?.toLowerCase()
 				.indexOf(searchString.toLowerCase()) > -1}
 			<article class="post">
-				<h2 class="post-title"><a href="/{post.slug}">{post.meta.title}</a></h2>
-				<p class="post-date">{dateFormatter(post.meta.date)}</p>
-				{#if post.meta.excerpt}
-					<p class="post-excerpt">{post.meta.excerpt}</p>
-				{/if}
+				<div>
+					<h2 class="post-title"><a href="/{post.slug}">{post.meta.title}</a></h2>
+					<p class="post-date">{dateFormatter(post.meta.date)}</p>
+					{#if post.meta.excerpt}
+						<p class="post-excerpt">{post.meta.excerpt}</p>
+					{/if}
+				</div>
 			</article>
 		{/if}
 	{/each}
