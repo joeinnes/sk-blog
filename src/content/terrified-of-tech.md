@@ -2,6 +2,7 @@
 title: Terrified of Tech?
 date: 2021-01-04T23:31:39.000Z
 date_updated: 2021-01-08T23:37:28.000Z
+draft: true
 ---
 
 You've been dropped in at the deep end without any training? Or you got some training but it was all done by your IT person and you couldn't keep up?
