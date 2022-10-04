@@ -10,7 +10,7 @@ date_updated: 2020-09-22T22:03:34.000Z
 
 Back End Platform: [OctoberCMS](http://octobercms.com/), running on a Ubuntu 20.04 server (Linux, Apache, SQLite PostgreSQL, PHP)
 
-Front-end: [Water.css](https://watercss.kognise.dev/)[Picnic.css](https://picnicss.com/)
+Front-end: [~~Water.css~~](https://watercss.kognise.dev/) [Picnic.css](https://picnicss.com/)
 
 ### Basic Technical Overview
 
@@ -31,13 +31,6 @@ Users can set a profile picture/avatar - if they choose not to specify one, an a
 - Certain users can be flagged with a different background colour (eg: leads, etc.)
 - A 'god mode' exists, where an admin can monitor all users active on the application from a single view
 
-### How Does It Look?
-
-In the first screenshot, only 'Joe' is logged in. The state buttons are working, and the project name is 'Joe's Project'. Simultaneously, other users are logged in and their view is filtered to their own project.
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/53362849-722f-4373-823b-d485ab762568/Team_Are_Online.png](/content/images/2020/09/Team-Are-Online.png)
-The second screenshot shows a redacted view where personal information is covered with a black box.
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8ab5ce4e-d1cb-491b-b45d-4e6c977975ef/Team_Are_Online_2.png](/content/images/2020/09/Team-Are-Online-2.png)
-
 ### Challenges/Learning Points
 
 - Although theoretically SQLite and Postgres have similar SQL dialects, migrating between the two is actually quite difficult. In particular, auto-incrementing primary keys are not migrated properly, and new sequences need to be created
@@ -52,7 +45,9 @@ Even though the application is not advertised anywhere or publicly linked, I sti
 - /wp-admin
 - /wp-admin/install.php
 - /wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php
-- /wp-content/plugins/wp-file-manager/lib/files/xxx.phpThese last two I believe to be linked to a [vulnerability recently discovered](https://arstechnica.com/information-technology/2020/09/hackers-are-exploiting-a-critical-flaw-affecting-350000-wordpress-sites/) in wp-file-manager, a WordPress plugin. This shows that although security through obscurity is not really security, and it's unlikely I would have been using this plug-in had I developed this app on WordPress, attackers are specifically hunting for WordPress sites with known exploits.
+- /wp-content/plugins/wp-file-manager/lib/files/xxx.php
+
+These last two I believe to be linked to a [vulnerability recently discovered](https://arstechnica.com/information-technology/2020/09/hackers-are-exploiting-a-critical-flaw-affecting-350000-wordpress-sites/) in wp-file-manager, a WordPress plugin. This shows that although security through obscurity is not really security, and it's unlikely I would have been using this plug-in had I developed this app on WordPress, attackers are specifically hunting for WordPress sites with known exploits.
 
 ### Code snippets
 
