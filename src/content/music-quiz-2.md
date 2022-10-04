@@ -1,7 +1,8 @@
 ---
-title: Music Quiz #2
+title: Music Quiz
 date: 2020-07-17T17:15:00.000Z
 date_updated: 2020-07-17T17:15:00.000Z
+draft: true
 ---
 
 Like everyone else in quarantine, my family has been doing Zoom quizzes to try to fill the days.
