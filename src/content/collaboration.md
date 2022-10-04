@@ -21,13 +21,4 @@ Interesting article I came across on collaboration and motivation - David Relph'
 > **_C5 — The ‘I collaborate therefore I am’ motivation._**
 > I collaborate because I am fundamentally committed to working that way. My  motivation is civic and social — my organisation is a means to that end
 
-[
-
-What does ‘collaboration’ really mean to people?
-
-When people use the word ‘collaboration’ they often mean very different things and they are also very likely be approaching the collaboration in very different ways. This is something that I have…
-
-![](https://cdn-images-1.medium.com/fit/c/152/152/1*8I-HPL0bfoIzGied-dzOvA.png)David RelphMedium
-
-![](https://miro.medium.com/max/1200/1*maZncJ4v0PS4skTdo_bIyA.jpeg)
-](https://medium.com/@dcjrwork/what-does-collaboration-really-mean-to-people-10324b27c0b0)
+[What does ‘collaboration’ really mean to people?](https://medium.com/@dcjrwork/what-does-collaboration-really-mean-to-people-10324b27c0b0)
