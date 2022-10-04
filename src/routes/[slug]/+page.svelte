@@ -38,17 +38,15 @@
 		class="aspect-[21/9] header-image content pb-6"
 		class:darken-bottom={data.title_overlays_featured_image}
 		style="
-        background-image: url('{urlToStatically(
-			data.featured_image ?? 'https://source.unsplash.com/random/?' + data.title
-		)}')
+        background-image: url('{data.featured_image
+			? urlToStatically(data.featured_image)
+			: 'https://source.unsplash.com/random/?' + data.title}')
       "
 	>
 		{#if !$page_bg}
 			<img
 				class="hidden"
-				src={urlToStatically(
-					data.featured_image ?? 'https://source.unsplash.com/random/?' + data.title
-				)}
+				src={data.featured_image ?? 'https://source.unsplash.com/random/?' + data.title}
 				use:getAverageRGB={page_bg}
 				aria-hidden="true"
 				alt="hidden"
