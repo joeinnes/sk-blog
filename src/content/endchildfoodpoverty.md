@@ -1,7 +1,8 @@
 ---
-title: '#endchildfoodpoverty'
+title: "#endchildfoodpoverty"
 date: 2020-10-25T11:29:24.000Z
 date_updated: 2020-10-25T13:10:54.000Z
+featured_image: /media/uploads/endchildfoodpoverty.jpeg
 ---
 
 [[I](https://traist.co.uk)](/) built a little something on my day off after the UK government decided not to extend free school meals to children during the October half-term.
@@ -13,10 +14,6 @@ Although children do not normally receive free school meals outside of term time
 The site allows parents to quickly identify businesses near them who will feed their children for free over the coming week.
 
 You can check it out at [https://free-meals.glitch.me](https://free-meals.glitch.me)
-
-![](/content/images/2020/10/Screen-Shot-2020-10-25-at-11.59.16.png)
-
-![](/content/images/2020/10/Screen-Shot-2020-10-25-at-11.59.45.png)
 
 The data is from various sources, consolidated here [bit.ly/kidsmealsmap](https://www.google.com/maps/d/u/0/viewer?hl=en&hl=en&mid=1FY2YP3o-Yl6XfmquSB8ONAdEOfT-37su&ll=53.52267271392029%2C-3.6800511181780977&z=7) by the folks at [https://allofustogether.uk/](https://allofustogether.uk/)
 
