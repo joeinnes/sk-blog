@@ -46,6 +46,6 @@ I still have a lot of people who I only stay in touch with through Messenger, so
 I’d ask you though, if you can, rather than contacting me through Facebook, please:
 
 - IM or call me on Signal (with my phone number)
-- If you’ve lost my phone number, send me an old-fashioned email, to [**my first name]@joeinn.es\*\*
+- If you’ve lost my phone number, send me an old-fashioned email, to [**my first name**]@joeinn.es
 
 I’d prefer Apple Messages or FaceTime if you aren’t sure how to use Signal, but if you absolutely have to use a Facebook product to contact me, use WhatsApp instead of Messenger, and if you absolutely have to use Messenger, at least choose Secret Conversations.
