@@ -2,7 +2,8 @@
 title: Crumpets
 date: 2020-05-18T16:23:00.000Z
 date_updated: 2020-05-18T16:23:00.000Z
-featured_image: /media/uploads/crumpet01-scaled.jpeg
+featured_image: /media/uploads/5600.webp
+title_overlays_featured_image: true
 page_bg: url('/media/uploads/crumpet01-scaled.jpeg')
 ---
 
