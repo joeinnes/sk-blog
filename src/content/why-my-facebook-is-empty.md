@@ -1,6 +1,5 @@
 ---
 title: Why My Facebook Is Empty
-slug: why-my-facebook-is-empty
 date: 2020-06-17T16:21:07.000Z
 date_updated: 2021-01-11T21:39:54.000Z
 ---

@@ -1,9 +1,7 @@
 ---
 title: How To Trick Everyone Into Thinking You're Not A Racist
-slug: how-to-trick-everyone-into-thinking-youre-not-a-racist
 date: 2016-06-23T14:54:00.000Z
 date_updated: 2018-03-03T15:54:47.000Z
-tags: brexit, eu, politics
 ---
 
 Top tips for pretending you voted ‘Leave’ because you’re not a racist! Not a single immigrant in sight! (that’s just how you like it, isn’t it?)

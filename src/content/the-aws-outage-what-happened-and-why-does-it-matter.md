@@ -1,9 +1,7 @@
 ---
 title: The AWS Outage—What Happened and Why Does It Matter?
-slug: the-aws-outage-what-happened-and-why-does-it-matter
 date: 2017-03-01T16:04:00.000Z
 date_updated: 2018-03-03T16:06:50.000Z
-tags: devops, cloud
 ---
 
 Yesterday, one of Amazon’s data centres suffered some kind of catastrophic failure, and their S3 service went down. The US-EAST-1 DC is one of the data centres the tech giant have on the Eastern seaboard (it’s in North Virginia, to be precise). A large portion of the internet was affected, and a variety of websites were affected by the outage.

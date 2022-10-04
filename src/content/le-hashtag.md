@@ -1,9 +1,7 @@
 ---
 title: Le Hashtag
-slug: le-hashtag
 date: 2013-02-04T08:54:00.000Z
 date_updated: 2018-03-03T09:14:11.000Z
-tags: french, language
 ---
 
 Earlier this month, L’Académie Française issued a diktat that from this day forward, there was to be no more le hashtag and from now on it is to be referred to as a mot-dièse. This was picked up fairly widely in the media, and laughed off as another example of Frenchness.

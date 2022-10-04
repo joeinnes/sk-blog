@@ -1,9 +1,7 @@
 ---
 title: Migrating from Meteor Hosting (.meteor.com) to my own VPS
-slug: migrating-from-meteor-hosting-meteor-com-to-my-own-vps
 date: 2016-03-13T15:40:00.000Z
 date_updated: 2018-03-03T15:40:31.000Z
-tags: meteor, devops
 ---
 
 Sad news — the free and simple hosting provided by Meteor is coming to an end (as do all things), and so if you want to keep your apps, you need to migrate them to another host.

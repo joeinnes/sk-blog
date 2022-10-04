@@ -1,9 +1,7 @@
 ---
 title: Javascript Testing For Idiots Who Don’t Understand Anything They’ve Read About It So Far
-slug: javascript-testing-for-idiots-who-dont-understand-anything-theyve-read-about-it-so-far
 date: 2016-09-20T15:00:00.000Z
 date_updated: 2018-03-03T16:00:45.000Z
-tags: web dev, react
 ---
 
 So, I’ve heard a lot about ‘testing’, and why it’s a great thing, and I’m fully on board. I’ve read all the ‘_red, green, refactor’_, I understand the main principles behind Test Driven Development, and I’ve wanted to start for months.

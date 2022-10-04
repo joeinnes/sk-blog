@@ -1,9 +1,7 @@
 ---
 title: Music Quiz #3
-slug: music-quiz-3
 date: 2020-07-24T17:23:00.000Z
 date_updated: 2020-07-24T17:23:00.000Z
-tags: music
 ---
 
 Like everyone else in quarantine, my family has been doing Zoom quizzes to try to fill the days.

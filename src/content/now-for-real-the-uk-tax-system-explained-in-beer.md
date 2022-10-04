@@ -1,9 +1,7 @@
 ---
 title: 'Now for real: The UK Tax System Explained in Beer'
-slug: now-for-real-the-uk-tax-system-explained-in-beer
 date: 2017-06-20T15:11:00.000Z
 date_updated: 2018-03-03T16:14:17.000Z
-tags: taxes, uk, politics
 ---
 
 [An article posted on LinkedIn](https://www.linkedin.com/pulse/uk-tax-system-explained-beer-fraser-kerr) has been gaining popularity as a simplified explanation of the UK tax system. At first glance, it seems quite interesting and well thought through, so I did some fact checking. This is what it really looks like.

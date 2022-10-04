@@ -1,6 +1,5 @@
 ---
 title: What is Signal?
-slug: what-is-signal
 date: 2020-06-05T22:11:22.000Z
 date_updated: 2020-06-05T23:02:52.000Z
 ---

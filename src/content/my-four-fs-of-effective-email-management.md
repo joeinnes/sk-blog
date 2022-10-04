@@ -1,9 +1,7 @@
 ---
 title: My Four F's of Effective Email Management
-slug: my-four-fs-of-effective-email-management
 date: 2016-04-04T14:44:00.000Z
 date_updated: 2018-03-03T15:44:46.000Z
-tags: email, productivity
 ---
 
 I work for a multinational company, and I’ve tried every to-do list manager going, I’ve even tried to write a few myself. I inevitably stick with it for a week or two, and then give up. There’s a very simple reason for this.

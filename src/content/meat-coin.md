@@ -1,9 +1,7 @@
 ---
 title: Meat Coin
-slug: meat-coin
 date: 2020-01-10T21:57:36.000Z
 date_updated: 2020-03-11T22:14:02.000Z
-tags: vegetarianism, veganism, environment, Portfolio
 ---
 
 I wrote a PWA to help reduce meat consumption. It's a fairly simple app - you install it, and for every plant-based meal, you get one 'meat coin'. For every meal with meat, you use one 'meat coin'. A meal with dairy costs half a meat coin.

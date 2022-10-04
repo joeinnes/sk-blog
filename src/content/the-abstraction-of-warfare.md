@@ -1,9 +1,7 @@
 ---
 title: The Abstraction of Warfare
-slug: the-abstraction-of-warfare
 date: 2013-04-23T08:05:00.000Z
 date_updated: 2018-03-03T09:26:27.000Z
-tags: politics, war
 ---
 
 War is hell. People around the globe are widely in agreement on this simple statement, which is pretty impressive, seeing as we can barely agree on the day of the week most of the time. And yet, for some reason, we’ve only managed about three years without war since WWII.

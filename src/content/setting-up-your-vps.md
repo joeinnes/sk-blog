@@ -1,9 +1,7 @@
 ---
 title: Setting Up Your VPS
-slug: setting-up-your-vps
 date: 2014-04-08T09:34:00.000Z
 date_updated: 2018-03-03T10:34:26.000Z
-tags: devops, vps
 ---
 
 So now you have a server in the cloud. Nice! But at the moment, it’s not doing anything. It’s connected to the internet, sure, but it’s not actually ready for you to do anything with yet. In order to do that, you’re going to need to get used to the command line. If you’re on a Mac or Linux, SSH is built into your system, but if you’re on Windows, you’ll need to download an SSH client. I recommend [PuTTY](http://www.putty.org/), but the choice is up to you. The only difference between PuTTY and the Mac/Linux SSH clients is that you will need to launch PuTTY separately to log in to your server, while Mac and Linux users can simply type ssh and they will be able to connect.

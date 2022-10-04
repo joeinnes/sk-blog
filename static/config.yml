@@ -38,3 +38,15 @@ collections:
           required: false
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+    view_groups:
+      - label: Year
+        field: date
+        # groups items based on the value matched by the pattern
+        pattern: \d{4}
+    view_filters:
+      - label: 'No Image'
+        field: featured_image
+        pattern: false
+      - label: Drafts
+        field: draft
+        pattern: true

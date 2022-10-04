@@ -1,6 +1,5 @@
 ---
 title: COVID Christmas 2021
-slug: covid-christmas-2021
 date: 1970-01-01T00:00:00.000Z
 date_updated: 2021-12-28T12:00:50.000Z
 draft: true

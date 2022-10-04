@@ -1,9 +1,7 @@
 ---
 title: Setting Up Your DNS
-slug: setting-up-your-dns
 date: 2015-03-15T09:54:00.000Z
 date_updated: 2018-03-03T09:55:09.000Z
-tags: devops, dns
 ---
 
 You don’t want to have users typing in your IP address to access your server, you want them to be able to access your server via the name you paid for. The exact steps to follow will depend on your registrar.

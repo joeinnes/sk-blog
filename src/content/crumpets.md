@@ -1,6 +1,5 @@
 ---
 title: Crumpets
-slug: crumpets
 date: 2020-05-18T16:23:00.000Z
 date_updated: 2020-05-18T16:23:00.000Z
 ---

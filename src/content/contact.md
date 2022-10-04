@@ -1,6 +1,5 @@
 ---
 title: I'm Not On Facebook...
-slug: contact
 date: 2020-06-17T16:22:25.000Z
 date_updated: 2020-11-27T16:00:59.000Z
 ---

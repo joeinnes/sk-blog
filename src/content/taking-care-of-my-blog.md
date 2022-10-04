@@ -1,6 +1,5 @@
 ---
 title: Taking Care of My Blog
-slug: taking-care-of-my-blog
 date: 2022-10-01T14:45:40.000Z
 date_updated: 2022-10-01T14:45:40.000Z
 ---

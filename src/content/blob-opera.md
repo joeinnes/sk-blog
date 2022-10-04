@@ -1,6 +1,5 @@
 ---
 title: Blob Opera
-slug: blob-opera
 date: 2021-01-31T09:55:26.000Z
 date_updated: 2021-01-31T09:55:26.000Z
 ---

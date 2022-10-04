@@ -1,9 +1,7 @@
 ---
 title: The Financial Transaction Tax, The EU, and You
-slug: the-financial-transaction-tax-the-eu-and-you
 date: 2013-11-27T09:17:00.000Z
 date_updated: 2018-03-03T09:21:17.000Z
-tags: eu, politics
 ---
 
 As we continue to live through the media’s caterwauling of austerity, cuts, and double-dip recessions, we find ourselves in a position of power over the financial institutions whose machinations ultimately led to the crash itself. The government has a significant stake in a number of banks, and owns some outright. The time for action is now, before we sell our share back to the banks, an event which will, if the recent privatisation of Royal Mail is anything to go by, result in the tax payer getting (once again) a raw deal.

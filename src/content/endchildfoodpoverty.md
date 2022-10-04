@@ -1,6 +1,5 @@
 ---
-title: "#endchildfoodpoverty"
-slug: endchildfoodpoverty
+title: '#endchildfoodpoverty'
 date: 2020-10-25T11:29:24.000Z
 date_updated: 2020-10-25T13:10:54.000Z
 ---

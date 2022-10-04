@@ -1,6 +1,5 @@
 ---
 title: ASBO 2.0 Rejected—But the Problem Remains
-slug: asbo-2-0-rejected-but-the-problem-remains
 date: 2014-02-14T09:41:00.000Z
 date_updated: 2018-03-03T09:41:58.000Z
 tags: politics, uk

@@ -1,6 +1,5 @@
 ---
 title: A Punch in the Teeth for UKIP and the Greens
-slug: a-punch-in-the-teeth-for-ukip-and-the-greens
 date: 2015-05-16T09:43:00.000Z
 date_updated: 2018-03-03T10:50:07.000Z
 tags: politics, uk

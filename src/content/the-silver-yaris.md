@@ -1,9 +1,7 @@
 ---
 title: The Silver Yaris
-slug: the-silver-yaris
 date: 2017-05-01T15:10:00.000Z
 date_updated: 2018-03-03T16:29:01.000Z
-tags: short story, fiction
 ---
 
 The alarm clock rings, but I’m already awake. I know it’s 6:45 now, and I’ve been awake for probably about twenty minutes already. I hit snooze anyway, because the air is cold in the flat. Nine minutes later, I drag one leg after the other over the edge of the bed, and stumble into the bathroom. When I turn the light on, I realise that I can’t see myself in the mirror, but I can’t be bothered to go back and get my glasses. I sigh and sit down to piss.

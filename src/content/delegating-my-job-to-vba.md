@@ -1,9 +1,7 @@
 ---
 title: Delegating my Job to VBA
-slug: delegating-my-job-to-vba
 date: 2016-05-07T14:48:00.000Z
 date_updated: 2020-03-11T22:25:56.000Z
-tags: automation, productivity
 ---
 
 In my work, one of my major embarassments is falling behind my colleagues. I work with one other person on our Knowledge Base, and one of our goals is to have every document reviewed once every 6 months. I’m responsible for making sure that 250 or so articles are up to date, and I’m always falling behind and not being able to keep on top of my follow-ups with knowledge owners.

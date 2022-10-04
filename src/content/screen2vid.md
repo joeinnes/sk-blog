@@ -1,9 +1,7 @@
 ---
 title: Screen2Vid
-slug: screen2vid
 date: 2019-06-18T22:00:00.000Z
 date_updated: 2020-07-08T12:28:41.000Z
-tags: Portfolio, web dev
 ---
 
 An app using the MediaRecorder API to record a screencast in WEBP format.

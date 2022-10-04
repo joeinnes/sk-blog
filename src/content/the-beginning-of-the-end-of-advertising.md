@@ -1,6 +1,5 @@
 ---
 title: The beginning of the end of advertising?
-slug: the-beginning-of-the-end-of-advertising
 date: 2020-10-17T14:00:00.000Z
 date_updated: 2021-01-11T21:39:36.000Z
 ---

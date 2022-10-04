@@ -1,6 +1,5 @@
 ---
 title: Building a Webshop in Apostrophe 3 Alpha
-slug: building-a-webshop-in-apostrophe
 date: 1970-01-01T00:00:00.000Z
 date_updated: 2020-11-21T14:02:42.000Z
 draft: true

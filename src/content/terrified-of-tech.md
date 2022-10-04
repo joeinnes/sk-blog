@@ -1,6 +1,5 @@
 ---
 title: Terrified of Tech?
-slug: terrified-of-tech
 date: 2021-01-04T23:31:39.000Z
 date_updated: 2021-01-08T23:37:28.000Z
 ---

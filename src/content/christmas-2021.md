@@ -1,6 +1,5 @@
 ---
 title: Christmas 2021
-slug: christmas-2021
 date: 2021-12-25T22:52:00.000Z
 date_updated: 2021-12-25T23:52:36.000Z
 ---

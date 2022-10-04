@@ -1,9 +1,7 @@
 ---
 title: Nelson Mandela
-slug: nelson-mandela
 date: 2013-12-08T09:28:00.000Z
 date_updated: 2018-03-03T09:29:15.000Z
-tags: nelson mandela, politics, terrorism, obituary
 ---
 
 On 5 December, 2013, Nelson Mandela passed away in Johannesburg, South Africa, the country he helped to shape and reform following his 27-year incarceration. The world is celebrating his life — and there is much to celebrate. Mandela was an instrumental figure in demolishing apartheid in South Africa, and a campaigner for civil rights and worked for a better world.

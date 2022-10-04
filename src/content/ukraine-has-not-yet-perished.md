@@ -1,9 +1,7 @@
 ---
 title: Ukraine Has Not Yet Perished
-slug: ukraine-has-not-yet-perished
 date: 2013-12-10T09:30:00.000Z
 date_updated: 2018-03-03T09:31:10.000Z
-tags: ukraine, politics, eu
 ---
 
 Tonight, riot police line the streets of Kiev. Protestors are bedding down in tents on the Ukrainian capital’s Maidan Nezalezhnosti, the big square, and there’s no sign of either side backing down. For the most part, the protests and the police reaction have been peaceful, but tensions are high, as are the stakes. Let us not forget that Ukraine’s last revolution was less than ten years ago. These people believe in the power of revolution because they have lived it.

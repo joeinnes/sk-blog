@@ -1,9 +1,7 @@
 ---
 title: Choosing a VPS Provider
-slug: choosing-a-vps-provider
 date: 2015-04-08T08:57:00.000Z
 date_updated: 2018-03-03T09:58:25.000Z
-tags: devops, vps
 ---
 
 I use [VPS Dime](http://vpsdime.com/), and have been very please with the price and performance, but you could just as easily use [AWS](http://aws.amazon.com/ec2/), Digital Ocean, or any other VPS provider.

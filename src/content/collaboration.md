@@ -1,6 +1,5 @@
 ---
 title: Collaboration
-slug: collaboration
 date: 2020-08-05T21:17:43.000Z
 date_updated: 2020-08-05T21:17:43.000Z
 ---

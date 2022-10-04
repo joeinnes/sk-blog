@@ -1,9 +1,7 @@
 ---
 title: Crimea in Crisis—How the West Has Lost
-slug: crimea-in-crisis-how-the-west-has-lost
 date: 2014-04-03T08:48:00.000Z
 date_updated: 2018-03-03T09:50:16.000Z
-tags: russia, ukraine, war, politics
 ---
 
 Russia and Ukraine have always felt a very close unity. Indeed, Russia’s name places it as the descendent of Kievan Rus, which unsurprisingly had its capital in Ukraine. It’s worth mentioning that this is not a one-way thing. Many Ukrainians support Russia, and support forging closer ties with them. In Crimea, this number is around 80%. Crimea has always been something of a thorn in the side for both Russia and Ukraine.

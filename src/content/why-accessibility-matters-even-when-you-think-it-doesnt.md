@@ -1,9 +1,7 @@
 ---
 title: Why Accessibility Matters, Even When You Think It Doesn't
-slug: why-accessibility-matters-even-when-you-think-it-doesnt
 date: 2016-05-09T14:50:00.000Z
 date_updated: 2018-03-03T15:51:59.000Z
-tags: web dev, accessibility
 ---
 
 When designing for the web, accessibility is often forgotten, and this is a bad thing. It’s bad because it means that users with screen readers and the like are not able to use your site.

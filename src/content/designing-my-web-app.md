@@ -1,9 +1,7 @@
 ---
 title: Designing My Web App
-slug: designing-my-web-app
 date: 2015-04-08T09:01:00.000Z
 date_updated: 2018-03-03T10:01:31.000Z
-tags: web dev, react
 ---
 
 I’ve found a gap in the market. This is going to earn me billions. I’ve already chosen my Ferrari. All I have to do now is actually make the damn thing.

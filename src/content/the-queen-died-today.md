@@ -1,6 +1,5 @@
 ---
 title: The Queen Died Today
-slug: the-queen-died-today
 date: 2022-09-08T21:58:31.000Z
 featured_image: https://storage.traist.co.uk/joeinn.es/content/images/2022/09/image.png
 date_updated: 2022-09-08T21:58:31.000Z

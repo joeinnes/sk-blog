@@ -1,9 +1,7 @@
 ---
 title: Ukraine on Fire as Protests Turn Violent
-slug: ukraine-on-fire-as-protests-turn-violent
 date: 2014-02-20T09:46:00.000Z
 date_updated: 2018-03-03T09:46:50.000Z
-tags: ukraine, russia, war
 ---
 
 It was to be a decisive move that put an end to the Euromaidan protests. After three months of protesters camping on Ukraine’s main city square, pro-Yanukovich forces moved in thousands of protesters. Although they were not the first casualties during the past quarter of the year, the 28 people (or more — exact, verifiable figures are hard to come by) who lost their lives on the night of the 18th February were to mark a change in the atmosphere on the Maidan.

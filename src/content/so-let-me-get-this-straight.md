@@ -1,6 +1,5 @@
 ---
 title: So Let Me Get This Straight...
-slug: so-let-me-get-this-straight
 date: 1970-01-01T00:00:00.000Z
 date_updated: 2021-01-28T22:56:41.000Z
 draft: true

@@ -1,9 +1,7 @@
 ---
 title: No Benefits Please, We're British
-slug: no-benefits-please-were-british
 date: 2014-02-12T09:37:00.000Z
 date_updated: 2018-03-03T09:37:55.000Z
-tags: politics, eu, uk
 ---
 
 I am, as are many others my age, in something of a pickle. I have just escaped the 18–25 age bracket, and almost simultaneously have found myself without a job.

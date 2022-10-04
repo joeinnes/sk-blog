@@ -1,9 +1,7 @@
 ---
 title: François Hollande Caught With His Trousers Down… But So What?
-slug: francois-hollande-caught-with-his-trousers-down-but-so-what
 date: 2014-02-04T09:32:00.000Z
 date_updated: 2018-03-03T09:35:13.000Z
-tags: politics, eu, france
 ---
 
 France’s least popular president since France began having that sort of thing has experienced an unlikely boost in his ratings. It would seem all you need to do to impress the French is to fornicate with somebody other than your designated life partner.

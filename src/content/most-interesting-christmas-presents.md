@@ -1,6 +1,5 @@
 ---
 title: Most Interesting Christmas Presents
-slug: most-interesting-christmas-presents
 date: 2019-12-31T10:00:51.000Z
 date_updated: 2020-03-11T22:14:59.000Z
 ---

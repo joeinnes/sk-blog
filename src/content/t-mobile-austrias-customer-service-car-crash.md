@@ -1,9 +1,7 @@
 ---
 title: T-Mobile Austria's Customer Service Car Crash
-slug: t-mobile-austrias-customer-service-car-crash
 date: 2018-04-07T12:15:20.000Z
 date_updated: 2019-11-10T12:55:10.000Z
-tags: customer service
 ---
 
 It all started on April 4th when a well—meaning tweet was sent to T-Mobile Austria:

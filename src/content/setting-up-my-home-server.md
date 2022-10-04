@@ -1,9 +1,7 @@
 ---
 title: Setting Up My Home Server
-slug: setting-up-my-home-server
 date: 2015-08-02T09:57:00.000Z
 date_updated: 2018-03-03T10:57:37.000Z
-tags: devops
 ---
 
 So, I’ve got an old laptop kicking around, and I decided to spend an afternoon making it into a home server.

@@ -1,9 +1,7 @@
 ---
 title: Team Are Online
-slug: team-are-online
 date: 2020-09-22T17:48:00.000Z
 date_updated: 2020-09-22T22:03:34.000Z
-tags: Portfolio
 ---
 
 > **Goal:** Enable teams to work remotely more effectively by displaying a 'status' which can be set easily

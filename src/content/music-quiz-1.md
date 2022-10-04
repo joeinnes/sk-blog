@@ -1,6 +1,5 @@
 ---
 title: Music Quiz #1
-slug: music-quiz-1
 date: 2020-06-28T11:41:24.000Z
 date_updated: 2020-06-28T11:44:44.000Z
 ---

@@ -2,10 +2,10 @@
 	import { page } from '$app/stores';
 	import { page_bg } from '$lib/stores/page-bg';
 	import { getAverageRGB } from '$lib/actions/getAverageRGB';
+	import { urlToStatically } from '$lib/utils/utils';
 	import type { PageData } from './$types';
 	import Signature from '$lib/components/Signature.svelte';
 	let bg: string;
-	const { slug } = $page.params;
 	export let data: PageData;
 	let img: HTMLImageElement;
 	const dateFormatter = (dateStr: string) => {
@@ -38,14 +38,17 @@
 		class="aspect-[21/9] header-image content pb-6"
 		class:darken-bottom={data.title_overlays_featured_image}
 		style="
-        background-image: url('{data.featured_image ??
-			'https://source.unsplash.com/random/?' + data.title}')
+        background-image: url('{urlToStatically(
+			data.featured_image ?? 'https://source.unsplash.com/random/?' + data.title
+		)}')
       "
 	>
 		{#if !$page_bg}
 			<img
 				class="hidden"
-				src={data.featured_image ?? 'https://source.unsplash.com/random/?' + data.title}
+				src={urlToStatically(
+					data.featured_image ?? 'https://source.unsplash.com/random/?' + data.title
+				)}
 				use:getAverageRGB={page_bg}
 				aria-hidden="true"
 				alt="hidden"

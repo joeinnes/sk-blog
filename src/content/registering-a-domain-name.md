@@ -1,9 +1,7 @@
 ---
 title: Registering a Domain Name
-slug: registering-a-domain-name
 date: 2015-04-08T09:06:00.000Z
 date_updated: 2018-03-03T10:07:18.000Z
-tags: web dev, domain name
 ---
 
 The first step in becoming a webmaster is choosing a domain name. Some domains are easier to register than others. .com TLDs are the easiest. My own TLD (.es) is supposed to be used for Spanish websites, and so I chose a Spanish company to buy the domain from. Now, I have to do all of my domain management in Spanish, which is great for my language skills, but not ideal if you struggle with other languages.

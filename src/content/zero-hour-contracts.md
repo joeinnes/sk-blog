@@ -1,9 +1,7 @@
 ---
 title: Zero-Hour Contracts
-slug: zero-hour-contracts
 date: 2013-11-24T09:15:00.000Z
 date_updated: 2018-03-03T09:22:00.000Z
-tags: politics
 ---
 
 One of the ways retailers have fought off the recession is by saving on staffing costs. Obviously, nobody likes to hear about companies making people redundant, or closing shops that are performing worse, but I can’t help but feel that some of these options are better than the zero-hour contract purgatory that many retail employees now find themselves in. As the recession hit hard, retailers were spoilt for choice. Hundreds of people were clamouring for just a few jobs, and the managers saw an opportunity. Limited by the minimum wage, they could not reduce the salaries they paid their employees, but they found a way to turn this glut of job-seekers to their advantage, and it took the form of the zero-hour contract.

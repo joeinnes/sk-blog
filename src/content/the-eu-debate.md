@@ -1,9 +1,7 @@
 ---
 title: The EU Debate
-slug: the-eu-debate
 date: 2013-11-09T09:11:00.000Z
 date_updated: 2018-03-03T09:24:08.000Z
-tags: politics, eu
 ---
 
 As the next elections loom in the distance, we face a real possibility of having our say on EU membership in the imminent future. However, we as a country are woefully unprepared to make that decision. Only 37% of Brits claim to have a good understanding of the EU (according to p. 135 of the most recent Eurobarometer study), and yet the results of a referendum would be significant and long-term. UKIP, initially a single-issue party, has evolved into the fourth biggest party in the UK.
