@@ -1,6 +1,7 @@
 ---
 title: Singapore Grand Prix 2022 Predictions
 date: 2022-10-02T09:00:00.000Z
+featured_image: /media/uploads/max.jpeg
 ---
 
 <script>
