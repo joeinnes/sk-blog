@@ -96,7 +96,7 @@
 		grid-column: 2;
 	}
 
-	:global(img, .full-bleed, p:has(img)) {
+	:global(img, .full-bleed, p:has(img), .content > p:has(img)) {
 		@apply max-w-full w-full p-0;
 		grid-column: 1 / -1 !important;
 	}
