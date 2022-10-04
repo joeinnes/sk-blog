@@ -1,4 +1,5 @@
 import { FastAverageColor } from 'fast-average-color';
+import { get } from 'svelte/store';
 import type { Writable } from 'svelte/store';
 
 export const getAverageRGB = (imgEl: HTMLImageElement, storeToUpdate: Writable<string>) => {
@@ -10,6 +11,9 @@ export const getAverageRGB = (imgEl: HTMLImageElement, storeToUpdate: Writable<s
 		const ctx = canvas.getContext('2d');
 		ctx?.drawImage(imgEl, 0, 0);
 		const fac = new FastAverageColor();
-		fac.getColorAsync(canvas).then(colour => storeToUpdate.set(colour.rgba));
+		fac.getColorAsync(canvas).then(colour => {
+			if (get(storeToUpdate)) return;
+			storeToUpdate.set(colour.rgba)
+		});
 	}
 };

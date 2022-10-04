@@ -41,8 +41,10 @@ collections:
     view_groups:
       - label: Year
         field: date
-        # groups items based on the value matched by the pattern
         pattern: \d{4}
+      - label: 'Has Image'
+        field: featured_image
+        pattern: ''
     view_filters:
       - label: 'No Image'
         field: featured_image
