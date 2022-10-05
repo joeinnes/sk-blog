@@ -21,7 +21,7 @@ But it's INCREDIBLY easy to make good looking colour palettes with HSL. How does
 
 I﻿nstead of specifying RGB values, you pick a hue, a saturation, and a lightness (ie: an 'H', an 'S', and an 'L'). Hues are spread around a circle which mimics the old 'ROYGBIV' acronym we already know from school, running round a clock. 12 (or 0°) is red. 1 o'clock (or 30°) is orange. 2 o'clock (or 60°) is yellow. 3 o'clock (90°) is a chartreuse, 120° (or 4 o'clock) is green, 150° is an emerald green (5 o'clock), and 180° (6) is cyan. 7 is azure and 8 is ultramarine, and by 9 o'clock (or 270°) we're at violet, with magenta at 10, and a crimson colour at 11. 
 
-T﻿his clock shows the hue wheel beautifully and starts to hint at some basic colour theory concepts—colours opposite each other on the wheel will often go together very nicely.
+T﻿his clock shows the hue wheel roughly (although the reds and yellows take up a bit more space than they should, and the greens and blues a bit less...) and starts to hint at some basic colour theory concepts—colours opposite each other on the wheel will often go together very nicely.
 
 ![A clock displaying colours and their complements.](/media/uploads/rainbow-multi-coloured-wall-clock-578129b_01.jpeg)
 
