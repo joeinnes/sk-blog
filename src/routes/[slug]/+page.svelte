@@ -26,7 +26,16 @@
 	$page_bg = $page.data.page_bg;
 </script>
 
-<svelte:head><title>Joe Innes | {data.title}</title></svelte:head>
+<svelte:head>
+	<title>Joe Innes | {data.title}</title>
+	<meta property="og:title" content={data.title} />
+	<meta property="og:description" content={data.excerpt} />
+	<meta
+		property="og:image"
+		content={data.featured_image ?? `https://cdn.statically.io/og/:${data.title}.jpg`}
+	/>
+	<meta property="og:type" content="article" />
+</svelte:head>
 <article
 	style="
   --content-bg-colour: {data.content_bg_colour || 'white'};
