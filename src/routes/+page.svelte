@@ -6,6 +6,8 @@
 	const { posts } = data;
 	import { page_bg } from '$lib/stores/page-bg';
 	import { fade } from 'svelte/transition';
+	import { FastAverageColor } from 'fast-average-color';
+
 	$page_bg = 'white';
 	let searchString = '';
 	let search = false;
@@ -49,7 +51,11 @@
 	</div>
 </div>
 
-<div class="post-list text-ellipsis overflow-hidden" use:autoAnimate>
+<div
+	class="post-list text-ellipsis overflow-hidden"
+	use:autoAnimate
+	style="--border-bottom-hover: black"
+>
 	{#each posts as post, i}
 		{#if !post.meta.draft && post?.meta?.title
 				?.toLowerCase()
@@ -102,7 +108,7 @@
 		left: 0;
 		right: 100%;
 		bottom: 0;
-		background: #000;
+		background: var(--border-bottom-hover);
 		height: 4px;
 		-webkit-transition-property: right;
 		transition-property: right;

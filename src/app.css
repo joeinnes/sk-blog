@@ -8,3 +8,13 @@ html {
 .content > * {
 	grid-column: 2;
 }
+
+.prose code::before,
+.prose code::after {
+	content: '';
+}
+
+.prose code {
+	color: var(--tw-prose-pre-code);
+	background-color: var(--tw-prose-pre-bg);
+}

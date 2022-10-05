@@ -8,8 +8,8 @@ public_folder: '/media/uploads'
 site_url: https://joeinn.es
 display_url: https://joeinn.es
 
-# logo_url: https://joeinn.es/favicon.svg
-# show_preview_links: false
+logo_url: https://joeinn.es/favicon.ico
+show_preview_links: true
 
 collections:
   - name: 'blog' # Used in routes, e.g., /admin/collections/blog
@@ -38,7 +38,12 @@ collections:
           default: '',
           required: false
         }
-      - { label: 'Content Background Colour', name: 'content_bg_colour', widget: 'color' }
+      - {
+          label: 'Content Background Colour',
+          name: 'content_bg_colour',
+          widget: 'color',
+          required: false
+        }
       - { label: 'Body', name: 'body', widget: 'markdown' }
     view_groups:
       - label: Year

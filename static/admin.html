@@ -8,6 +8,63 @@
 	<body>
 		<!-- Include the script that builds the page and powers Netlify CMS -->
 		<script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+
+		<script>
+			let interval;
+			let tailwindInstalled = false;
+			const installTailwind = (doc, win) => {
+				console.log('installing tailwind');
+				if (doc.querySelector('head > style') && win.tailwind) {
+					console.log('installed')
+					clearInterval(interval);
+					tailwindInstalled = true;
+					return;
+				}
+
+				const script = doc.createElement('script');
+				script.src = 'https://cdn.tailwindcss.com?plugins=typography,aspect-ratio';
+				doc
+					.head
+					.appendChild(script)
+			}
+			var PostPreview = createClass({
+				componentDidMount() {
+					if (!tailwindInstalled) {
+						const {document, window} = this.props;
+						interval = setInterval(() => installTailwind(document, window), 500)
+					} else {
+						clearInterval(interval)
+					}
+				},
+				componentDidUpdate() {
+					const {document, window} = this.props;
+					if (!tailwindInstalled) {
+						const {document, window} = this.props;
+						interval = setInterval(() => installTailwind(document, window), 500)
+					} else {
+						clearInterval(interval)
+					}
+				},
+				render: function () {
+					var entry = this.props.entry;
+					var image = entry.getIn(['data', 'featured_image']);
+					var bg = this
+						.props
+						.getAsset(image);
+					return h('div', {
+						'className': 'bg-blue-200 p-4 w-full'
+					}, h('article', {
+						"className": "prose lg:prose-xl prose-headings:font-bold prose-zinc rounded-xl mx-auto drop-shadow-2xl relative overflow-hidden bg-white max-w-[65ch]"
+					}, h('img', {
+						'src': 'https://source.unsplash.com/random',
+						className: 'aspect-[21/9] object-cover'
+					}), h('div', {
+						className: 'max-w-[55ch] mx-auto pt-4'
+					}, h('h1', {}, entry.getIn(['data', 'title'])), image && h('img', {src: bg.toString()}), h('div', {}, this.props.widgetFor('body')))));
+				}
+			});
+			CMS.registerPreviewTemplate("blog", PostPreview);
+		</script>
 		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
 	</body>
