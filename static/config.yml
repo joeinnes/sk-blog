@@ -8,13 +8,16 @@ public_folder: '/media/uploads'
 site_url: https://joeinn.es
 display_url: https://joeinn.es
 
-logo_url: https://joeinn.es/favicon.ico
+logo_url: https://joeinn.es/android-chrome-512x512.png
 show_preview_links: true
 
 collections:
   - name: 'blog' # Used in routes, e.g., /admin/collections/blog
     label: 'Blog' # Used in the UI
     folder: 'src/content' # The path to the folder where the documents are stored
+    label_singular: 'Post' # Used in the UI, ie: "New Post"
+    description: >
+      Thoughts and treatises from my mind.
     create: true # Allow users to create new documents in this collection
     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
