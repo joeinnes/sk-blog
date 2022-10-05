@@ -34,7 +34,7 @@ But Gill Sans is not as regular - the shoulders and collars are not perfectly ro
 [Outfit](https://www.fontshare.com/fonts/outfit) is also very beautiful. The problem with Outfit is that it doesn't seem to have the Hungarian accented characters that I might occasionally want to write (like the 'ő' in 'Üllői út', or the 'ű' in 'űrhájó'). I did write an package that tries to help with that (https://github.com/joeinnes/double-prime-vowels), but it's a long way from perfect.
 
 <div class="full-bleed not-prose">
-  <FontSample fontName="Century Gothic" fontSrc="http://fonts.cdnfonts.com/css/century-gothic" wordTest="BALLOON" />
+  <FontSample fontName="Century Gothic" fontSrc="https://fonts.cdnfonts.com/css/century-gothic" wordTest="BALLOON" />
 </div>
 
 I think I'm going to have to stick with Century Gothic as my back-up. It has better support (almost 90% of Windows computers according to [CSS Font Stack](https://www.cssfontstack.com/)). Ironically, Century Gothic is only available on Windows, so if you're on a mac, the panel above will be a default serif font.

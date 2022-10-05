@@ -89,7 +89,11 @@
 		@apply font-bold text-xl lg:text-2xl;
 	}
 	.post-date {
-		@apply font-light text-sm text-gray-500;
+		@apply font-light text-sm text-gray-400;
+	}
+
+	.post-excerpt {
+		@apply font-light text-gray-600;
 	}
 
 	.hvr-underline-from-left {
