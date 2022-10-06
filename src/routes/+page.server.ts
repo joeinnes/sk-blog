@@ -1,27 +1,15 @@
 import type { PageServerLoad } from './$types';
 
+import { getAllPosts } from '$lib/utils/utils';
+
 export const load: PageServerLoad = async () => {
-	const allPostFiles = import.meta.glob('/src/content/*.md');
-	const iterablePostFiles = Object.entries(allPostFiles);
-
-	const allPosts = await Promise.all(
-		iterablePostFiles.map(async ([path, resolver]) => {
-			const resolvedPost = await resolver();
-			const { html } = resolvedPost.default.render();
-			const postPath = path.slice(13, -3);
-
-			return {
-				meta: resolvedPost.metadata,
-				slug: postPath,
-				html: html
-			};
-		})
-	);
-	const sortedPosts = allPosts.sort((a, b) => {
-		return new Date(b.meta.date) - new Date(a.meta.date);
+	const posts = await getAllPosts({
+		drafts: false,
+		scheduled: false
 	});
 
+
 	return {
-		posts: sortedPosts
+		posts
 	};
 };

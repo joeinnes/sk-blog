@@ -5,8 +5,6 @@
 	export let data: PageData;
 	const { posts } = data;
 	import { page_bg } from '$lib/stores/page-bg';
-	import { fade } from 'svelte/transition';
-	import { FastAverageColor } from 'fast-average-color';
 
 	$page_bg = 'white';
 	let searchString = '';
@@ -57,16 +55,14 @@
 	style="--border-bottom-hover: black"
 >
 	{#each posts as post, i}
-		{#if !post.meta.draft && post?.meta?.title
-				?.toLowerCase()
-				.indexOf(searchString.toLowerCase()) > -1}
+		{#if post?.title?.toLowerCase().indexOf(searchString.toLowerCase()) > -1}
 			<a href="/{post.slug}">
 				<article class="post hvr-underline-from-left w-full">
 					<div class="flex-1 py-8">
-						<h2 class="post-title">{post.meta.title}</h2>
-						<p class="post-date">{dateFormatter(post.meta.date)}</p>
-						{#if post.meta.excerpt}
-							<p class="post-excerpt">{post.meta.excerpt}</p>
+						<h2 class="post-title">{post.title}</h2>
+						<p class="post-date">{dateFormatter(post.date)}</p>
+						{#if post.excerpt}
+							<p class="post-excerpt">{post.excerpt}</p>
 						{/if}
 					</div>
 				</article>
