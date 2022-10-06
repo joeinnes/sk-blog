@@ -1,6 +1,7 @@
 ---
 title: Avenir
 date: 2022-10-02T13:30:00.000Z
+excerpt: A comparison of beautiful geometric sans fonts, starting with the satisfyingly proportioned Avenir.
 ---
 
 <script>
@@ -37,4 +38,4 @@ But Gill Sans is not as regular - the shoulders and collars are not perfectly ro
   <FontSample fontName="Century Gothic" fontSrc="https://fonts.cdnfonts.com/css/century-gothic" wordTest="BALLOON" />
 </div>
 
-I think I'm going to have to stick with Century Gothic as my back-up. It has better support (almost 90% of Windows computers according to [CSS Font Stack](https://www.cssfontstack.com/)). Ironically, Century Gothic is only available on Windows, so if you're on a mac, the panel above will be a default serif font.
+I think I'm going to have to stick with Century Gothic as my back-up. It has better support (almost 90% of Windows computers according to [CSS Font Stack](https://www.cssfontstack.com/)). Ironically, Century Gothic is only available on Windows, so if you're on a Mac, the panel above might end up just displaying a default serif font.

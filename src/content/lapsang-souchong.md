@@ -6,7 +6,7 @@ draft: false
 featured_image: /media/uploads/cup_shots_lapsang_souchong_2000x.webp
 title_overlays_featured_image: false
 page_bg: ''
-excerpt: An homage to a delicious smoked tea that tastes of autumn.
+excerpt: An homage to a delicious, robust, smoked tea with a taste that tells tales of autumn evenings.
 ---
 
 My order from the British Store arrived today, with, amongst other things, 3 boxes of Lapsang Souchong tea. I first came across lapsang souchong as in ingredient in a smoked duck dish a friend of mine cooked for Masterchef while I was at university, and I was fortunate enough to have been a guinea pig. She didn't win, but the dish was delicious, and I was grateful to have been allowed to help her practice.
