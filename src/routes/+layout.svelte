@@ -12,13 +12,13 @@
 
 <div
 	style="
-  --page-background: {$page.routeId === '/' ? 'white' : $page_bg};
+  --page-background: {$page.routeId === '(main)' ? 'white' : $page_bg};
 "
 	class="page_bg"
 >
 	<header>
 		<nav>
-			<a href="/" class="logo">JI</a>
+			<a href={$page.routeId?.startsWith('(cv)') ? '/cv' : '/'} class="logo">JI</a>
 		</nav>
 	</header>
 
@@ -32,14 +32,14 @@
 <style>
 	.page_bg {
 		background: var(--page-background);
-		@apply bg-cover bg-center transition-colors min-h-screen;
+		@apply bg-cover bg-center transition-colors min-h-screen print:min-h-0;
 	}
 	main {
-		@apply px-4 pb-8 pt-32 lg:pt-8 container mx-auto max-w-[75ch];
+		@apply px-4 pb-8 pt-32 print:pt-8 lg:pt-8 container mx-auto grid place-items-center;
 	}
 
 	header {
-		@apply py-2 my-10 md:my-0 pl-8 pr-3 md:px-4 md:py-4 fixed z-10 rounded-r-xl bg-[#ffffffcc] md:bg-inherit;
+		@apply print:hidden py-2 print:my-0 my-10 md:my-0 pl-8 pr-3 md:px-4 md:py-4 fixed z-10 rounded-r-xl bg-[#ffffffcc] md:bg-inherit;
 	}
 
 	.logo {

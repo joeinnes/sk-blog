@@ -12,7 +12,7 @@ export const getAverageRGB = (imgEl: HTMLImageElement, storeToUpdate: Writable<s
 		ctx?.drawImage(imgEl, 0, 0);
 		const fac = new FastAverageColor();
 		fac.getColorAsync(canvas).then(colour => {
-			if (get(storeToUpdate)) return;
+			//if (get(storeToUpdate)) return;
 			storeToUpdate.set(colour.rgba)
 		});
 	}
