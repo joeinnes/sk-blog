@@ -18,7 +18,9 @@
 >
 	<header>
 		<nav>
-			<a href={$page.routeId?.startsWith('(cv)') ? '/cv' : '/'} class="logo">JI</a>
+			<a href={$page.routeId?.startsWith('(cv)') ? '/cv/' + $page.data.company : '/'} class="logo"
+				>JI</a
+			>
 		</nav>
 	</header>
 

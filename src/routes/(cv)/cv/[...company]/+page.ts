@@ -48,7 +48,7 @@ export const companies: Record<string, Company> = {
 
 export const load: PageLoad = async ({ params }) => {
   const { company } = params;
-  let thisCompany: HSL;
+  let thisCompany: Company;
 
   if (company && companies[company]) {
     thisCompany = companies[company]

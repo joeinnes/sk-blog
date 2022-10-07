@@ -1,4 +1,29 @@
-<h1 class="text-6xl mb-4 font-bold">Joe Innes</h1>
+<script lang="ts">
+	import Address from '$lib/components/Address.svelte';
+	import { prefetch } from '$app/navigation';
+	import { page } from '$app/stores';
+	import { browser } from '$app/environment';
+
+	let hasCoverLetter: boolean;
+	if (browser && $page.data.company) {
+		prefetch('/cover-letter/' + $page.data.company)
+			.then(() => (hasCoverLetter = true))
+			.catch(() => (hasCoverLetter = false));
+	}
+</script>
+
+<div class="flex justify-between items-center">
+	<h1 class="text-6xl mb-4 font-bold">Joe Innes</h1>
+	<div class="text-right">
+		<Address />
+		{#if hasCoverLetter}
+			<a
+				href="/cover-letter/{$page.data.company}"
+				class="no-underline text-right border rounded-xl p-2 cover-letter-link">Cover Letter</a
+			>
+		{/if}
+	</div>
+</div>
 <div class="grid grid-cols-3 gap-2 divide-x">
 	<div class="col-span-2 column">
 		<section>
@@ -208,5 +233,15 @@
 	}
 	.column:last-of-type {
 		@apply pl-2;
+	}
+
+	.cover-letter-link {
+		@apply transition-colors print:hidden;
+		border-color: var(--dark-text);
+	}
+	.cover-letter-link:hover {
+		background: var(--accent);
+		color: var(--light-bg);
+		border-color: var(--accent);
 	}
 </style>

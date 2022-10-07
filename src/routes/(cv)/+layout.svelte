@@ -1,14 +1,23 @@
 <script lang="ts">
-	import type { PageData } from './$types';
 	import { page_bg } from '$lib/stores/page-bg';
-	export let data: PageData;
-	let lightBg = `hsl(${data.h}, ${data.s}%, 97%)`;
-	let accent = `hsl(${data.h}, ${data.s}%, 50%)`;
-	let darkText = `hsl(${data.h}, ${data.s}%, 15%)`;
-	let semiDarkText = `hsl(${data.h}, ${data.s}%, 25%)`;
-	const { font, fontImport } = data;
-
-	$page_bg = `hsl(${data.h}, ${data.s}%, ${data.l}%)`;
+	import { page } from '$app/stores';
+	let h: number,
+		s: number,
+		l: number,
+		font: string,
+		fontImport: string,
+		lightBg: string,
+		accent: string,
+		darkText: string,
+		semiDarkText: string;
+	$: {
+		({ h, s, l, font, fontImport } = $page.data);
+		$page_bg = `hsl(${h}, ${s}%, ${l}%)`;
+		lightBg = `hsl(${h}, ${s}%, 97%)`;
+		accent = `hsl(${h}, ${s}%, 50%)`;
+		darkText = `hsl(${h}, ${s}%, 15%)`;
+		semiDarkText = `hsl(${h}, ${s}%, 25%)`;
+	}
 </script>
 
 <svelte:head>
@@ -16,8 +25,9 @@
 </svelte:head>
 
 <article
-	class="max-w-[100ch] prose prose-zinc rounded-xl p-12 pt-4"
-	style="--light-bg: {lightBg}; --accent: {accent}; --dark-text: {darkText}; --semi-dark-text: {semiDarkText}; --font: {font}"
+	class="max-w-[100ch] prose prose-zinc rounded-xl p-12 pt-8"
+	style="--light-bg: {lightBg}; --accent: {accent}; --dark-text: {darkText}; --semi-dark-text: {semiDarkText}; --font: {font ??
+		''}"
 >
 	<slot />
 </article>
