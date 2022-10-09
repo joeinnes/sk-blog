@@ -18,3 +18,14 @@ html {
 	color: var(--tw-prose-pre-code);
 	background-color: var(--tw-prose-pre-bg);
 }
+
+@media print {
+	p {
+		break-inside: avoid;
+	}
+}
+
+@page {
+	size: A4;
+	margin: 0;
+}

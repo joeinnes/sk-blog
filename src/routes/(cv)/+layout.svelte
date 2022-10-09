@@ -38,5 +38,6 @@
 		color: var(--dark-text);
 		font-family: var(--font);
 		@apply transition-colors;
+		box-decoration-break: clone;
 	}
 </style>

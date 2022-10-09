@@ -4,7 +4,7 @@
 	import Signature from '$lib/components/Signature.svelte';
 </script>
 
-<div class="p-12 pt-0 prose-lg">
+<div class="p-12 print:p-0 pt-0 prose-lg print:prose">
 	<Address />
 	<p class="text-right">
 		<a href="/cv/{$page.data.company}" class="no-underline border rounded-xl p-2 cv-link">C.V.</a>

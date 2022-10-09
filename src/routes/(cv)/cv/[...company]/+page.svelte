@@ -4,7 +4,7 @@
 	import { page } from '$app/stores';
 	import { browser } from '$app/environment';
 
-	let hasCoverLetter: boolean;
+	let hasCoverLetter: boolean = false;
 	if (browser && $page.data.company) {
 		prefetch('/cover-letter/' + $page.data.company)
 			.then(() => (hasCoverLetter = true))

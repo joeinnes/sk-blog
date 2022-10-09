@@ -11,7 +11,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		prerender: {
-			entries: ['*', ...allPostFiles],
+			entries: ['*', '/cv', ...allPostFiles],
 			onError: ({ status, path, referrer, referenceType }) => {
 				if (path.startsWith('/content/images')) {
 					console.warn('Missing an image!');

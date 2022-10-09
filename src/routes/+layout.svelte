@@ -34,10 +34,10 @@
 <style>
 	.page_bg {
 		background: var(--page-background);
-		@apply bg-cover bg-center transition-colors min-h-screen print:min-h-0;
+		@apply bg-cover bg-center transition-colors min-h-screen;
 	}
 	main {
-		@apply px-4 pb-8 pt-32 print:pt-8 lg:pt-8 container mx-auto grid place-items-center;
+		@apply px-4 pb-8 pt-32 print:pt-8 lg:pt-8 container mx-auto grid place-items-center print:block;
 	}
 
 	header {
