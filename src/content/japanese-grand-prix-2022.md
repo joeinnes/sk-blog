@@ -2,6 +2,7 @@
 title: Japanese Grand Prix 2022
 date: 2022-10-09T12:19:00.000Z
 featured_image: /media/uploads/gasly.jpeg
+excerpt: After a wet and eventful Sunday morning, one thing that stands out clearly is that F1 is in trouble.
 ---
 
 Well that was an eventful race. Instead of waking up early to watch it, I decided to have a bit of a lie-in. Glad I didn't waste my time.
@@ -27,3 +28,5 @@ Regardless, certainly given the conditions, it seems as though it would **at lea
 Yes, Belgium 2021 was a catastrophe. But solving the problem by implementing rule changes which are only half thought through?
 
 Don't get me wrong, Verstappen is a deserving championship winner, and he would likely have won next weekend anyway... but after the controversy around his championship win last year, one would have thought that the FIA would have wanted to avoid any kind of allegations of unfairness.
+
+As we wait for the (delayed) results of the cost-cap investigation (headed up by someone who actually works for Red Bull, if I've understood correctly), the last thing the FIA needed was more controversy.
