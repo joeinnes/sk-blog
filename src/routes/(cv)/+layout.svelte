@@ -25,7 +25,7 @@
 </svelte:head>
 
 <article
-	class="max-w-[100ch] prose prose-zinc rounded-xl p-12 pt-8"
+	class="max-w-[100ch] prose prose-zinc rounded-xl p-12 pt-8 print:p-4 "
 	style="--light-bg: {lightBg}; --accent: {accent}; --dark-text: {darkText}; --semi-dark-text: {semiDarkText}; --font: {font ??
 		''}"
 >

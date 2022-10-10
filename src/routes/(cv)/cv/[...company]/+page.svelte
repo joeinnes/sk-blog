@@ -13,7 +13,7 @@
 </script>
 
 <div class="flex justify-between items-center">
-	<h1 class="text-6xl mb-4 font-bold">Joe Innes</h1>
+	<h1 class="text-6xl mb-4 font-bold print:mt-0 print:mb-2">Joe Innes</h1>
 	<div class="text-right">
 		<Address />
 		{#if hasCoverLetter}
@@ -26,7 +26,7 @@
 </div>
 <div class="grid grid-cols-3 gap-2 divide-x">
 	<div class="col-span-2 column">
-		<section>
+		<section id="exp">
 			<h2>Experience</h2>
 			<h3>Tata Consultancy Services—Budapest, Hungary</h3>
 			<h4>IT Infrastructure Services Group Lead</h4>
@@ -201,7 +201,7 @@
 	}
 	.prose h1,
 	h2 {
-		@apply border-b-4 my-2 print:my-0 print:mb-2 !important;
+		@apply border-b-4 my-2 print:my-0 !important;
 		border-color: var(--accent);
 		color: var(--dark-text);
 	}
@@ -215,17 +215,20 @@
 		@apply uppercase text-xs;
 	}
 	ul {
-		@apply print:my-0 print:mb-2 !important;
+		@apply print:my-0 print:mb-2 print:leading-snug !important;
 	}
 	ul.list-none {
 		@apply pl-0;
 	}
 	ul.list-none li {
-		@apply pl-0 mb-4;
+		@apply pl-0 mb-4 print:mb-2;
 	}
 
+	#exp ul li {
+		@apply print:mb-1 print:mt-0 leading-snug;
+	}
 	p {
-		@apply mt-2 mb-4 print:mb-2 print:mt-1 !important;
+		@apply mt-2 mb-4 print:mb-2 print:mt-1 print:leading-snug !important;
 	}
 
 	.column:first-of-type {

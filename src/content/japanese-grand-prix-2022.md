@@ -11,7 +11,7 @@ What I did see was an exciting, properly wet race, with lots of very exciting ov
 
 ## The Tractor
 
-What was that tractor doing there? Jules Bianchi died at Suzuka 8 years ago when a recover vehicle was on the track, and I'm surprised that this was allowed to happen. I know Gasly got his penalty for speeding under the red flag, but seriously? George Russell has come out and said:
+What was that tractor doing there? Jules Bianchi died at Suzuka 8 years ago when a recovery vehicle was on the track, and I'm surprised that this was allowed to happen. I know Gasly got his penalty for speeding under the red flag, but seriously? George Russell has come out and said:
 
 > [...] a tractor should never be on a circuit when race cars are… never!
 >
