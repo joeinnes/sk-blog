@@ -2,6 +2,8 @@
 title: Avenir
 date: 2022-10-02T13:30:00.000Z
 excerpt: A comparison of beautiful geometric sans fonts, starting with the satisfyingly proportioned Avenir.
+featured_image: https://images.unsplash.com/photo-1642789673880-f25084b1c46d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80
+page_bg: rgba(197,171,140,1)
 ---
 
 <script>

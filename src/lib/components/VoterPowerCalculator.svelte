@@ -124,20 +124,24 @@
 		totals[year].votesForWinningParties / totals[year].totalSeats
 	);
 
-	let voteStats = votingData[year][votedFor];
-	votesPerSeat = Math.round(voteStats.votes / voteStats.seats);
-	let seatsPerVoteShare = Math.round((voteStats.votes / totals[year].votesForWinningParties) * 650);
-	voteValue = (1 / (votesPerSeat / averageVotesPerSeat)).toFixed(2);
+	let voteStats;
+	let seatsPerVoteShare;
+	$: {
+		voteStats = votingData[year][votedFor];
+		votesPerSeat = Math.round(voteStats.votes / voteStats.seats);
+		seatsPerVoteShare = Math.round((voteStats.votes / totals[year].votesForWinningParties) * 650);
+		voteValue = (1 / (votesPerSeat / averageVotesPerSeat)).toFixed(2);
+	}
 </script>
 
-<select bind:value={votedFor}>
+<select bind:value={votedFor} class="border-2 rounded-xl p-2">
 	{#each Object.keys(votingData[year]) as party}
 		<option>{party}</option>
 	{/each}
 </select>
 
 {#if votedFor}
-	<h2>Your vote was worth {voteValue} x the average!</h2>
+	<h2>Your vote was worth {voteValue}&times; the average!</h2>
 	<p>
 		An average candidate needed to receive {averageVotesPerSeat} votes to get a seat. Your party required
 		{votesPerSeat} votes per seat.
@@ -152,3 +156,9 @@
 		{/if}
 	</p>
 {/if}
+
+<style>
+	h2 {
+		@apply mt-4;
+	}
+</style>

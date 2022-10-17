@@ -61,7 +61,10 @@
 		{#each posts as post, i}
 			{#if post?.title?.toLowerCase().indexOf(searchString.toLowerCase()) > -1}
 				<a href="/{post.slug}">
-					<article class="post hvr-underline-from-left w-full">
+					<article
+						class="post hvr-underline-from-left w-full"
+						style="--border-bottom-hover: {post.page_bg ?? 'currentColor'}"
+					>
 						<div class="flex-1 py-8">
 							<h2 class="post-title">{post.title}</h2>
 							<p class="post-date">{dateFormatter(post.date)}</p>

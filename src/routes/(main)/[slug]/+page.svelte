@@ -44,18 +44,19 @@
 	class="prose lg:prose-xl prose-headings:font-bold prose-zinc article"
 >
 	<div
-		class="aspect-[21/9] header-image content pb-6"
+		class="aspect-[21/9] header-image content pb-6 "
 		class:darken-bottom={data.title_overlays_featured_image}
 		style="
         background-image: url('{data.featured_image
 			? urlToStatically(data.featured_image)
-			: 'https://source.unsplash.com/random/?' + data.title}')
+			: 'https://source.unsplash.com/random/?' + +encodeURIComponent(data.title)}')
       "
 	>
 		{#if !$page_bg}
 			<img
 				class="hidden"
-				src={data.featured_image ?? 'https://source.unsplash.com/random/?' + data.title}
+				src={data.featured_image ??
+					'https://source.unsplash.com/random/?' + +encodeURIComponent(data.title)}
 				use:getAverageRGB={page_bg}
 				aria-hidden="true"
 				alt="hidden"
@@ -84,7 +85,8 @@
 
 <style>
 	:global(.article) {
-		@apply rounded-xl mx-auto drop-shadow-2xl relative overflow-hidden bg-white max-w-[65ch] -mt-28 lg:mt-0;
+		@apply rounded-xl mx-auto drop-shadow-2xl relative overflow-hidden bg-white  -mt-28 lg:mt-0;
+		width: min(65ch, 100%);
 	}
 
 	.header-image {

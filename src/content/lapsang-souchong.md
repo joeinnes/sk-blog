@@ -5,7 +5,7 @@ date: 2022-10-03T19:31:39.247Z
 draft: false
 featured_image: /media/uploads/cup_shots_lapsang_souchong_2000x.webp
 title_overlays_featured_image: false
-page_bg: ''
+page_bg: rgba(129,88,74,1)
 excerpt: An homage to a delicious, robust, smoked tea with a taste that tells tales of autumn evenings.
 ---
 

@@ -84,14 +84,18 @@ OK, so they might have exciting names like Mocha, and Chai, and Jasmine, but bas
 
 That’s up to you, but I’ll let you know how I started: I cheated. I used Facebook’s _create-react-app_ script to generate a client side app with everything pre-configured.
 
+```bash
 npm install -g create-react-app
 alias crap=create-react-app # This step is not strictly required...
 crap MyApp
 cd MyApp
+```
 
 Now you can run
 
+```bash
 npm test
+```
 
 and it will show you that you have one, passing test. You can open up the `App.test.js` file to work out what is your passing test, and you’ll see the following:
 
@@ -185,7 +189,9 @@ First, let’s think about what functionality we want — we want a title to
 
 At the moment, we don’t have the libraries we need to actually read the component, so we’re going to use AirBnB’s enzyme utilities. First up, let’s install it:
 
+```bash
 npm install --save-dev enzyme
+```
 
 Enzyme has LOTS of utilities, and I have no idea what they all do, but the one I want is ‘shallow’, which will allow me to render a single component and check it for stuff. Here, I’m going to import it, and describe the test.
 

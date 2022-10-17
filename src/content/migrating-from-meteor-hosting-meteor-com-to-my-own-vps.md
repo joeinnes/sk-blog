@@ -12,12 +12,16 @@ I followed the steps below with a brand new Digital Ocean droplet, but this shou
 
 The first step is to get the most recent version of the app itself — I _know_ you’re using source control, so that won’t be a problem. Right?
 
+```bash
 git clone <your-repo>
+```
 
 Now, you’re going to use a tool called Meteor Up. The most recent version is actually available as mupx. Install it and then you can initiate a new Meteor Up project.
 
+```bash
 sudo npm install -g mupx
 mupx init
+```
 
 Meteor Up needs to use a settings file for Meteor, so if you have any custom entries in a `settings.json` file or something like that, you’ll need to migrate your entries into the new `settings.json` file that mupx has created.
 
@@ -35,19 +39,25 @@ If you need some help registering a domain name, check out [this article](https:
 
 You’re almost ready to deploy now — you just need an unencrypted version of your SSH key. Run the following command:
 
+```bash
 openssl rsa -in ~/.ssh/id_rsa -out ~/.ssh/id_rsa.decrypted
+```
 
 You should be prompted for your passphrase, and then you’re good to go! Obviously, make sure this key never gets out into the wild.
 
 Your next step is to configure the server. While this sounds like a painstaking process, Meteor Up takes care of it all for you — just run the following command.
 
+```bash
 mupx setup
+```
 
 This shouldn’t take very long, and will install everything on your server, apart from the application itself.
 
 Now for the fun bit — deploying your app. It’s as simple as:
 
+```bash
 mupx deploy
+```
 
 Now your app will be up and running on the new web host, accessible at the root URL you provided in the mup.json file.
 
@@ -59,40 +69,54 @@ First of all, make sure that you have Mongo installed on your computer (in case 
 
 Next, from your Meteor app’s directory run the following command.
 
+```bash
 meteor mongo <your-app.meteor.com> --url
+```
 
 You’ll get back a reply that looks like this:
 
+```bash
 mongodb://client-id:password@server:27017/app_name_meteor_com
+```
 
 You need to extract the information above, and run the command below, using the data:
 
+```bash
 ./mongodump -h <server> --port 27017 --username <client-id> --password <password> -d <app_name_meteor_com>
+```
 
 These two commands have to be run within a minute of each other according to the Internet, or they may not work (although I had no problems).
 
 This will create a folder called ‘dump’ in your current working directory. You’ll need to copy this up onto your server. You can choose the location it will be uploaded to on the server yourself, but I just put it in /root/dump. It won’t be staying for long anyway.
 
+```bash
 scp -r dump root@<yourServer>:dump
+```
 
 Next up, you need to ssh into your server. Now, you’re going to copy the dump into your MongoDB container, and then open a shell inside that container to import the database. It’s all getting a little inception-y.
 
+```bash
 docker cp dump mongodb:/dump
 docker exec -it mongodb bash
+```
 
 Now, you’re inside the docker container, we need to remove the database that was automatically created for the app you deployed, and then you just need to import the database dump.
 
 First step is to remove the empty database. We’re going to load up Mongo, access the database, and drop the one we don’t want. Follow the commands below:
 
+```mongo
 mongo
 show dbs;
+```
 
 You should see three databases — local, test, and the third one, named after your app. This name is important, write it on a piece of paper.
 
 Now, use your database, and drop it.
 
+```mongo
 use <myDb>;
 db.dropDatabase();
+```
 
 Your app will stop working, but we have one step left to go — restoring the database from the .meteor.com hosted app.
 
@@ -100,7 +124,9 @@ If you’ve been paying attention, you should have two pieces of information wri
 
 Run the following command:
 
+```bash
 mongorestore -d <yourAppName> dump/<appName_meteor_com>
+```
 
 In case you just restore the database as it is, your Meteor app won’t know where to find it.
 

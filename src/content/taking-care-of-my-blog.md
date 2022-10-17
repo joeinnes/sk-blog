@@ -2,6 +2,9 @@
 title: Taking Care of My Blog
 date: 2022-10-01T14:45:40.000Z
 date_updated: 2022-10-01T14:45:40.000Z
+featured_image: https://images.unsplash.com/photo-1517816428104-797678c7cf0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
+page_bg: rgba(252,112,36,1)
+excerpt: For about the millionth time, my interest in blogging has been renewed, and I'm planning to start blogging again.
 ---
 
 Just read this article (below) and decided I wanted to try (again) to blog on a semi-regular basis. There will be a lot of fragments of ideas and not much fully formed.

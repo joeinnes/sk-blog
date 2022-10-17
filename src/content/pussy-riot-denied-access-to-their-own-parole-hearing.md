@@ -2,6 +2,7 @@
 title: Pussy Riot Denied Access to their Own Parole Hearing
 date: 2013-06-26T08:09:00.000Z
 date_updated: 2018-03-03T09:11:18.000Z
+featured_image: https://cdn-images-1.medium.com/max/800/0*HYhguwyg8W9RwAnz.jpg
 ---
 
 As Maria Alyokhina lay in a hospital bed, newspapers reported that she was upbeat and positive. Her hunger strike began when she was told she would not be allowed to attend her own parole hearing, a fate that Nadezhda Tolokonnikova was to share. Both were denied parole in their absence.

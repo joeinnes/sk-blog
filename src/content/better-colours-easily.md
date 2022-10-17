@@ -7,7 +7,8 @@ excerpt: Using RGB values to define colours is difficult to wrap your head
 date: 2022-10-04T21:06:51.115Z
 draft: false
 title_overlays_featured_image: false
-page_bg: ''
+featured_image: https://images.unsplash.com/photo-1587586062323-836089e60d52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80
+page_bg: rgba(109,98,123,1)
 ---
 
 <script>

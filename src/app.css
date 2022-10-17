@@ -17,6 +17,7 @@ html {
 .prose code {
 	color: var(--tw-prose-pre-code);
 	background-color: var(--tw-prose-pre-bg);
+	@apply px-1 rounded;
 }
 
 @media print {

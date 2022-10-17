@@ -12,17 +12,23 @@ The Windows key on the bottom has run dry, so I’ve decided to spin up [Xubuntu
 
 UNetbootin can’t set active flags or write the MBR, so the next steps are to unmount the disk and then run a few terminal commands:
 
+```bash
 fdisk -e /dev/rdiskX
+```
 
 Where X is the number of the disk. Ignore the error message here, and then type the following, hitting enter at the end of each line:
 
+```fdisk
 f 1
 write
 exit
+```
 
 Then, download the Syslinux binaries from [Kernel.org](https://www.kernel.org/pub/linux/utils/boot/syslinux/). You need the mr.bin file, which should be hiding under `bios/mbr/mbr.bin`. Once you’ve located it, do the following, replacing the X with the disk number again (you may also have to unmount the drive again):
 
+```bash
 sudo dd conv=notrunc bs=440 count=1 if=bios/mbr/mbr.bin of=/dev/diskX
+```
 
 Then follow the instructions on UNetbootin to burn the ISO file to an external drive. The whole process should only take a few minutes.
 
@@ -40,13 +46,17 @@ Once I logged in, there were (surprisingly, as I thought it would have installed
 
 Next up, I wanted to keep power consumption (and so fan spin-up and noise) low, so I ran `sudo apt-get install cpufrequtils` to install a CPU governor, and then ran:
 
+```bash
 sudo sed -i 's/^GOVERNOR=.\*/GOVERNOR="powersave"/' /etc/init.d/cpufrequtils
+```
 
 This command will tell the OS to always use powersave mode. This should help with my overheating problem too.
 
 Next up is to allow file sharing. Because I opted for Xubuntu, it’s not baked in. There are a few ways to fix this, but I decided to just install Nautilus and use that instead. The command you need is:
 
+```bash
 sudo apt-get install nautilus nautilus-share
+```
 
 Once done, I opened a Nautilus window from the command prompt (`sudo nautilus`), navigated to the root directory, and right clicked on `mnt` and chose ‘Local Network Share’, at which point, I was prompted to install Samba and a few other dependencies, and restart the session.
 
@@ -62,7 +72,9 @@ This was pretty simple. I installed mhddfs with `sudo apt-get install mhddfs`, a
 
 I ran the following command:
 
+```bash
 mhddfs /mnt/data1,/mnt/data2 /mnt/data -o allow_other
+```
 
 and shared the `data` directory. It works beautifully.
 
@@ -72,13 +84,17 @@ I decided to mount my portable USB drive to /mnt/data2, but you can set up any d
 
 I wanted to run a media streaming server on this machine too, so I downloaded and installed [Plex](http://plex.tv). I ran the following command to start it:
 
+```bash
 sudo service plexmediaserver start
+```
 
 It was then accessible on my home network at [http://reformedniceguy:32400/web](http://reformedniceguy:32400/web,). I configured the server according to Plex’s instructions.
 
 When Plex was indexing the files, it ended up overheating, and the laptop shut itself down (not very gracefully, I might add), so I tried running adding `acpi_osi=Linux thermal.off=1` to grub, and I installed [TLP](http://www.webupd8.org/2014/10/advanced-power-management-tool-tlp-06.html). I also set the governor to powersave with the following command:
 
+```bash
 sudo cpufreq-set -g powersave
+```
 
 And that’s it. It’s up and running. I just had to configure Plex a bit. Total time taken was around 4–5 hours, including waiting for reboots, updates, etc.
 

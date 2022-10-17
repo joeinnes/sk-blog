@@ -1,6 +1,4 @@
 import { PUBLIC_BASE_URL, PUBLIC_NODE_ENV } from '$env/static/public';
-import type { ImportGlobFunction } from 'vite';
-
 export const dateFormatter = (dateStr: string) => {
 	const date = new Date(dateStr);
 	if (!(date instanceof Date) || isNaN(date)) return '';
@@ -54,7 +52,8 @@ interface Post {
 		date: string;
 		draft?: boolean;
 		excerpt?: string;
-		featured_image?: string
+		featured_image?: string;
+		page_bg?: string;
 	}
 }
 

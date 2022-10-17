@@ -2,6 +2,8 @@
 title: Falsehoods This Guy Believed About Names
 date: 2022-10-07T20:34:39.247Z
 excerpt: A peculiar feature of Hungarian birth certificates I discovered when I married my wife.
+featured_image: https://images.unsplash.com/photo-1577605260126-fe10d76fe088?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
+page_bg: rgba(79,83,89,1)
 ---
 
 There's an [infamous blog post](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/) from over a decade ago where Patrick McKenzie outlines a bunch of falsehoods programmers believe about names.

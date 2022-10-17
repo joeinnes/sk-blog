@@ -44,4 +44,4 @@ Which emergency service do you require when you find a dead body? I sure as hell
 
 ---
 
-_This is a short story based on a writing prompt found_[_here_](http://letswriteashortstory.com/short-story-ideas/)_, and isn’t based on any real-life situation._
+_This is a short story based on a writing prompt found_ [_here_](http://letswriteashortstory.com/short-story-ideas/)_, and isn’t based on any real-life situation._

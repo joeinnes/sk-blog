@@ -2,6 +2,7 @@
 title: Nelson Mandela
 date: 2013-12-08T09:28:00.000Z
 date_updated: 2018-03-03T09:29:15.000Z
+featured_image: https://cdn-images-1.medium.com/max/800/0*U9fc7vXq_8HBEIx0.
 ---
 
 On 5 December, 2013, Nelson Mandela passed away in Johannesburg, South Africa, the country he helped to shape and reform following his 27-year incarceration. The world is celebrating his life — and there is much to celebrate. Mandela was an instrumental figure in demolishing apartheid in South Africa, and a campaigner for civil rights and worked for a better world.
@@ -22,4 +23,4 @@ The question that abides then is what will Mandela’s legacy be? Will we contin
 
 > I was called a terrorist yesterday, but when I came out of jail, many people embraced me, including my enemies, and that is what I normally tell other people who say those who are struggling for liberation in their country are terrorists.
 
-_This article is also posted on_[_Fortitude Magazine_](http://www.fortitudemagazine.co.uk/industry/politics/nelson-mandela-yesterdays-terrorist/14173/)
+_This article is also posted on_ [_Fortitude Magazine_](http://www.fortitudemagazine.co.uk/industry/politics/nelson-mandela-yesterdays-terrorist/14173/)

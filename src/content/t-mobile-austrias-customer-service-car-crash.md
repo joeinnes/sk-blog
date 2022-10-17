@@ -4,14 +4,31 @@ date: 2018-04-07T12:15:20.000Z
 date_updated: 2019-11-10T12:55:10.000Z
 ---
 
+<script>
+  import Tweet from '$lib/components/Tweet.svelte'
+  </script>
+
+  <div class="break-words">
+
 It all started on April 4th when a well—meaning tweet was sent to T-Mobile Austria:
 
-> Does T-Mobile Austria in fact store customers’ passwords in clear text [@tmobileat](https://twitter.com/tmobileat?ref_src=twsrc%5Etfw)? [@PWTooStrong](https://twitter.com/PWTooStrong?ref_src=twsrc%5Etfw)[@Telekom_hilft](https://twitter.com/Telekom_hilft?ref_src=twsrc%5Etfw)[https://t.co/ydFdVRWgE4](https://t.co/ydFdVRWgE4) > &mdash; Claudia Pellegrino (@c_pellegrino) [April 4, 2018](https://twitter.com/c_pellegrino/status/981409466242486272?ref_src=twsrc%5Etfw)
+<Tweet tweet={{
+  content:`Does T-Mobile Austria in fact store customers’ passwords in clear text <a href="https://twitter.com/tmobileat?ref_src=twsrc%5Etfw">@tmobileat</a>? <a href="https://twitter.com/PWTooStrong?ref_src=twsrc%5Etfw">@PWTooStrong <a href="https://twitter.com/Telekom_hilft?ref_src=twsrc%5Etfw">@Telekom_hilft</a> <a href="https://t.co/ydFdVRWgE4">https://t.co/ydFdVRWgE4</a>`,
+  authorName: 'Claudia Pellegrino',
+  authorHandle: '@c_pellegrino',
+  date: 'April 4, 2018',
+  link: 'https://twitter.com/c_pellegrino/status/981409466242486272?ref_src=twsrc%5Etfw'
+}} />
 
 T-Mobile sent the following alarming response:
 
-> Hello Claudia! The customer service agents see the first four characters of your password. We store the whole password, because you need it for the login for [https://t.co/vJapgJ50qc](https://t.co/vJapgJ50qc) ^andrea
-> &mdash; T-Mobile Austria (@tmobileat) [April 4, 2018](https://twitter.com/tmobileat/status/981418339653300224?ref_src=twsrc%5Etfw)
+<Tweet tweet={{
+  content: `Hello Claudia! The customer service agents see the first four characters of your password. We store the whole password, because you need it for the login for https://t.co/vJapgJ50qc`,
+  authorName: 'T-Mobile Austria',
+  authorHandle: '@tmobileat',
+  date: 'April 4, 2018',
+  link: 'https://twitter.com/tmobileat/status/981418339653300224?ref_src=twsrc%5Etfw'
+}} />
 
 To understand why this is alarming, I need to take a little trip down the hallways of cybersecurity.
 
@@ -52,7 +69,16 @@ Even if the database is compromised, individual users passwords are still protec
 
 To summarise:
 
-UsernamePasswordSaltPepperHash` joe``hunter2``F52FBD32B2B3B86FF88EF6C490628285F482AF15DDCB29541F94BCF526A3F6C7``joe``hunter2``1EF9888BCA``895B71C0196C0246DA4E39048866C630443C29A3F54404513F2BD3FDAF762A61``joe``hunter2``1EF9888BCA``CheeseIsGreat``C3D0DB7D178552362DECD0832615E1B5955FF65785F1D0A3EBDEDB96FE7C358A``john``hunter2``2BED984510``CheeseIsGreat``635B34FA70CC99B9D67C4C662622AB53D8CFEB08224AA74C9C5CE2AD10EFA705 `
+<div class="overflow-x-scroll">
+
+| Username | Password  | Salt         | Pepper          | Hash                                                               |
+| -------- | --------- | ------------ | --------------- | ------------------------------------------------------------------ |
+| `joe`    | `hunter2` |              |                 | `F52FBD32B2B3B86FF88EF6C490628285F482AF15DDCB29541F94BCF526A3F6C7` |
+| `joe`    | `hunter2` | `1EF9888BCA` |                 | `895B71C0196C0246DA4E39048866C630443C29A3F54404513F2BD3FDAF762A61` |
+| `joe`    | `hunter2` | `1EF9888BCA` | `CheeseIsGreat` | `C3D0DB7D178552362DECD0832615E1B5955FF65785F1D0A3EBDEDB96FE7C358A` |
+| `john`   | `hunter2` | `2BED984510` | `CheeseIsGreat` | `635B34FA70CC99B9D67C4C662622AB53D8CFEB08224AA74C9C5CE2AD10EFA705` |
+
+</div>
 
 ## So what did T-Mobile get wrong?
 
@@ -70,13 +96,23 @@ Every single one of these is a bad idea, security speaking.
 
 Once Andrea's response was sent out, the original tweeter replied (politely), asking how it could be fixed.
 
-> Thanks for your reply Andrea! Storing cleartext passwords in a database is a naughty thing to do. [https://t.co/pbTxmSJrOP](https://t.co/pbTxmSJrOP) What can we do to get your devs to fix that?
-> &mdash; Claudia Pellegrino (@c_pellegrino) [April 4, 2018](https://twitter.com/c_pellegrino/status/981596868709961728?ref_src=twsrc%5Etfw)
+<Tweet tweet={{
+  content: `Thanks for your reply Andrea! Storing cleartext passwords in a database is a naughty thing to do. <a href="https://plaintextoffenders.com/faq/devs">Plain Text Offenders</a>`,
+  authorName: 'Claudia Pellegrino',
+  authorHandle: '@c_pellegrino',
+  date: 'April 4, 2018',
+  link: 'https://twitter.com/c_pellegrino/status/981596868709961728?ref_src=twsrc%5Etfw'
+}} />
 
 What followed from T-Mobile was an absolute disaster of a tweet from a different social media manager:
 
-> Hi [@c_pellegrino](https://twitter.com/c_pellegrino?ref_src=twsrc%5Etfw), I really do not get why this is a problem. You have so many passwords for evey app, for every mail-account and so on. We secure all data very carefully, so there is not a thing to fear. ^Käthe
-> &mdash; T-Mobile Austria (@tmobileat) [April 5, 2018](https://twitter.com/tmobileat/status/981785213549383680?ref_src=twsrc%5Etfw)
+<Tweet tweet={{
+  content: `Hi <a href="https://twitter.com/c_pellegrino?ref_src=twsrc%5Etfw">@c_pellegrino</a>, I really do not get why this is a problem. You have so many passwords for evey app, for every mail-account and so on. We secure all data very carefully, so there is not a thing to fear. ^Käthe`,
+  authorName: 'T-Mobile Austria',
+  authorHandle: '@tmobileat',
+  date: 'April 4, 2018',
+  link: 'https://twitter.com/tmobileat/status/981785213549383680?ref_src=twsrc%5Etfw'
+}} />
 
 ### Lesson: don't patronise your customers, or dismiss their concerns.
 
@@ -84,13 +120,23 @@ What followed from T-Mobile was an absolute disaster of a tweet from a different
 
 By this point, the story was starting to pick up a bit of momentum, and another tweeter weighed in asking:
 
-> Well, what if your infrastructure gets breached and everyone’s password is published in plaintext to the whole wide world?
-> &mdash; Eric™ (@Korni22) [April 6, 2018](https://twitter.com/Korni22/status/982187278033301507?ref_src=twsrc%5Etfw)
+<Tweet tweet={{
+  content: `Well, what if your infrastructure gets breached and everyone’s password is published in plaintext to the whole wide world?`,
+  authorName: 'Eric™',
+  authorHandle: '@Korni22',
+  date: 'April 6, 2018',
+  link: 'https://twitter.com/Korni22/status/982187278033301507?ref_src=twsrc%5Etfw'
+}} />
 
 At this point, Käthe should probably have checked with her boss before replying, but didn't. Her response was a hubris-filled surprise:
 
-> [@Korni22](https://twitter.com/Korni22?ref_src=twsrc%5Etfw) What if this doesn&#39;t happen because our security is amazingly good? ^Käthe
-> &mdash; T-Mobile Austria (@tmobileat) [April 6, 2018](https://twitter.com/tmobileat/status/982187919061303296?ref_src=twsrc%5Etfw)
+<Tweet tweet={{
+  content: `@Korni22 What if this doesn&#39;t happen because our security is amazingly good? ^Käthe`,
+  authorName: 'T-Mobile Austria',
+  authorHandle: '@tmobileat',
+  date: 'April 6, 2018',
+  link: 'https://twitter.com/tmobileat/status/982187919061303296?ref_src=twsrc%5Etfw'
+}} />
 
 Now, I'm sure T-Mobile take security seriously, but this is Donald Trump-level bluster.
 
@@ -100,10 +146,13 @@ Now, I'm sure T-Mobile take security seriously, but this is Donald Trump-level b
 
 The following few tweets are some of the most bizarre tweets I've ever seen from a corporate account:
 
-> [@Korni22](https://twitter.com/Korni22?ref_src=twsrc%5Etfw) Excuse me? Do you have any idea how telecommunication companies work? Do you know anything about our systems? But I&#39;m glad you have the time to share your view with us. ^Käthe
-> &mdash; T-Mobile Austria (@tmobileat) [April 6, 2018](https://twitter.com/tmobileat/status/982190220798967809?ref_src=twsrc%5Etfw)
-
-I'm surprised that no-one had relieved Käthe by this point, but she released a passive-aggressive tirade against @Korni22 until her shift ended.
+<Tweet tweet={{
+  content: `Excuse me? Do you have any idea how telecommunication companies work? Do you know anything about our systems? But I&#39;m glad you have the time to share your view with us. ^Käthe`,
+  authorName: 'T-Mobile Austria',
+  authorHandle: '@tmobileat',
+  date: 'April 6, 2018',
+  link: 'https://twitter.com/tmobileat/status/982190220798967809?ref_src=twsrc%5Etfw'
+}} />
 
 ### Lesson: when you're in a hole, stop digging, and certainly don't start insulting people
 
@@ -111,7 +160,13 @@ I'm surprised that no-one had relieved Käthe by this point, but she released a 
 
 Eventually, it seems Käthe disappeared from the picture, and T-Mobile's 'company spokesperson' Helmut weighed in with what is presumably an official opinion and statement which has been the subject of hasty conference calls.
 
-> Customer service agents see only parts of customers‘ passwords which are safely stored in encrypted databases via industry standard encryption algorithm. We are also using one-time-PINs for customer authentication and are evaluating voice biometrics. ^Helmut [@ojour](https://twitter.com/ojour?ref_src=twsrc%5Etfw) > &mdash; T-Mobile Austria (@tmobileat) [April 6, 2018](https://twitter.com/tmobileat/status/982394129249460226?ref_src=twsrc%5Etfw)
+<Tweet tweet={{
+  content: `Customer service agents see only parts of customers‘ passwords which are safely stored in encrypted databases via industry standard encryption algorithm. We are also using one-time-PINs for customer authentication and are evaluating voice biometrics. ^Helmut <a href="https://twitter.com/ojour?ref_src=twsrc%5Etfw">@ojour</a>`,
+  authorName: 'T-Mobile Austria',
+  authorHandle: '@tmobileat',
+  date: 'April 6, 2018',
+  link: 'https://twitter.com/tmobileat/status/982394129249460226?ref_src=twsrc%5Etfw'
+}} />
 
 No apology, no acknowledgement of concerns, and no explanation that passes any muster. I'm not a PR wizard, but at this point, surely a better approach would have been:
 
@@ -121,24 +176,4 @@ No apology, no acknowledgement of concerns, and no explanation that passes any m
 
 All in all, a bad day at the office for T-Mobile Austria. Customer service is rarely easy, but it's also pretty hard to get it this wrong.
 
-<style>
-.full-width {
-width: 100vw;
-position: relative;
-left: 50%;
-right: 50%;
-margin-left: -50vw;
-margin-right: -50vw;
-}
-
-table td {
-padding: 1em;
-}
-table th {
-border-bottom: 1px solid #333;
-font-weight: 700;
-}
-table td {
-border: 1px solid #ddd;
-}
-</style>
+</div>

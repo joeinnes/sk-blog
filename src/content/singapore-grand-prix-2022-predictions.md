@@ -3,6 +3,7 @@ title: Singapore Grand Prix 2022 Predictions
 date: 2022-10-02T09:00:00.000Z
 featured_image: /media/uploads/max.jpeg
 excerpt: Could this be the weekend that Verstappen clinches the 2022 championship (a few days before we learn whether he gets to keep the 2021 championship)?
+page_bg: rgba(102,88,96,1)
 ---
 
 <script>

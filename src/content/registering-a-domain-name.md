@@ -12,6 +12,7 @@ As a side-note, there are some unscrupulous services out there that allow you to
 
 The best way to find available domain names is using the [ping.eu](http://ping.eu/nslookup/) site, and searching for your domain name. You’re looking for the following response:
 
+```
 Server:
 127.0.0.1
 
@@ -19,6 +20,7 @@ Address:
 127.0.0.1#53
 
 \*\* server can’t find yourdomain.tld: NXDOMAIN
+```
 
 Once you’ve found an available domain name, and you’re ready to buy, you’ll need to choose a **registrar**. A registrar is simply a company that files the paperwork to say that you are the person who owns the domain you have chosen.
 

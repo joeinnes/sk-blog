@@ -3,6 +3,7 @@ title: Japanese Grand Prix 2022
 date: 2022-10-09T12:19:00.000Z
 featured_image: /media/uploads/gasly.jpeg
 excerpt: After a wet and eventful Sunday morning, one thing that stands out clearly is that F1 is in trouble.
+page_bg: rgba(135,133,133,1)
 ---
 
 Well that was an eventful race. Instead of waking up early to watch it, I decided to have a bit of a lie-in. Glad I didn't waste my time.
