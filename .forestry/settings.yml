@@ -22,7 +22,7 @@ build:
   - PUBLIC_NODE_ENV=development
   preview_output_directory: ".svelte-kit/build"
   install_dependencies_command: npm install
-  preview_docker_image: forestryio/node:16
-  mount_path: "/srv"
+  preview_docker_image: node:current-alpine
+  mount_path: "/src"
   working_dir: "/srv"
   instant_preview_command: npm run dev
