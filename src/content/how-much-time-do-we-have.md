@@ -3,7 +3,7 @@ date: 2022-10-20T17:29:22.683+00:00
 title: How Much Time Do We Have?
 draft: false
 excerpt: An exploration of how much time we might have left with those we love.
-featured_image: "/media/uploads/photo-1485881697404-78678dbc4639.avif"
+featured_image: "/media/uploads/roy-muz-kb-ck1y-kty-unsplash.jpg"
 page_bg: rgb(43, 76, 219)
 
 ---
