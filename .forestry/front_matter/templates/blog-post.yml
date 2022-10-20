@@ -16,7 +16,7 @@ fields:
     not display.
   config:
     date_format: DD/MM/YYYY h:mm A ZZ
-    export_format: YYYY-MM-DD'T'HH:mm:ss.SSSZ
+    export_format: YYYY-MM-DDTHH:mm:ss.SSSZ
     required: true
   default: now
 - name: draft
