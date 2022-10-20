@@ -20,7 +20,7 @@ build:
   preview_env:
   - PUBLIC_BASE_URL=https://joeinn.es
   - PUBLIC_NODE_ENV=development
-  preview_output_directory: ".svelte-kit/build"
+  preview_output_directory: ".svelte-kit"
   install_dependencies_command: npm install
   preview_docker_image: node:current-alpine
   mount_path: "/srv"
