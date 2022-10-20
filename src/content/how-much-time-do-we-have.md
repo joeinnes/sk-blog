@@ -21,14 +21,14 @@ But it got me thinking about my own relationship with my parents.
 
 > It turns out that when I graduated from high school, I had already used up 93% of my in-person parent time. I’m now enjoying the last 5% of that time. We’re in the tail end.
 
-It was a quiet reminder that these numbers are optimistic estimates that the author has two sisters, similar to me. They calculated that they probably had 15% of their time left. But the truth is that any day, that time can run out, like it did with Sandi.
+The author has two sisters, similar to me, which is a quiet reminder that these numbers are optimistic estimates. They calculated that they probably had 15% of their time left. But the truth is that any day, that time can run out, like it did with Sandi.
 
 I wanted to calculate if their assumptions were broadly correct and/or similar to my numbers.
 
-Here is my working:
+I plugged some numbers into a life expectancy calculator, and then did some rough estimations of how many hours per year I have spent respectively with my mum and dad.
 
-**1) Living in the same place as the people you love matters.** I probably have 10X the time left with the people who live in my city as I do with the people who live somewhere else.
+And if I carry on like this, I'm not quite at 5%, but not much more than 7% (and it was about 60% by age 12, not 75%).
 
-**2) Priorities matter.** Your remaining face time with any person depends largely on where that person falls on your list of life priorities. Make sure this list is set by you—not by unconscious inertia.
+These types of thoughts have been on my mind a lot over the past year or so, and I was happy to see how many people also think about this.
 
-**3) Quality time matters.** If you’re in your last 10% of time with someone you love, keep that fact in the front of your mind when you’re with them and treat that time as what it actually is: precious.
+We all have to accept that there is a finite number of times we will ever meet the people we care about again, and that number is probably a lot lower than you think it is.
