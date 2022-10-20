@@ -15,7 +15,7 @@ fields:
   description: Publish date for the article. Prior to this date, the article will
     not display.
   config:
-    date_format: DD/MM/YYYY
+    date_format: DD/MM/YYYY h:mm A ZZ
     export_format: YYYY-MM-DD'T'HH:mm:ss.SSSZ
     required: true
 - name: draft
