@@ -15,12 +15,15 @@ export const dateFormatter = (dateStr: string) => {
 	return formattedDate;
 };
 
-export const urlToStatically = (url: string, options?: {
-	h: number,
-	w: number,
-	f: 'auto',
-	q: number
-}) => {
+export const urlToStatically = (
+	url: string,
+	options?: {
+		h: number;
+		w: number;
+		f: 'auto';
+		q: number;
+	}
+) => {
 	if (PUBLIC_NODE_ENV !== 'production') {
 		return url;
 	}
@@ -36,17 +39,16 @@ export const urlToStatically = (url: string, options?: {
 	if (options?.f) optionsString += `f=${options.f}`;
 	if (options?.q) optionsString += `q=${options.q}`;
 
-	if (optionsString = '//') optionsString = '';
-	return `https://cdn.statically.io/img/${hostname}${pathname}`
-}
+	if ((optionsString = '//')) optionsString = '';
+	return `https://cdn.statically.io/img/${hostname}${pathname}`;
+};
 
 interface Post {
 	default: {
 		render(): {
 			html: string;
-		},
-
-	}
+		};
+	};
 	metadata: {
 		title: string;
 		date: string;
@@ -54,16 +56,15 @@ interface Post {
 		excerpt?: string;
 		featured_image?: string;
 		page_bg?: string;
-	}
+	};
 }
-
 
 export const getAllPosts = async ({
 	drafts = true,
 	scheduled = true
 }: {
-	drafts?: boolean,
-	scheduled?: boolean
+	drafts?: boolean;
+	scheduled?: boolean;
 }) => {
 	const allPostFiles = import.meta.glob<Post>('/src/content/*.md');
 	const iterablePostFiles = Object.entries(allPostFiles);
@@ -80,12 +81,14 @@ export const getAllPosts = async ({
 			};
 			return post;
 		})
-	)
-	const sortedPosts = allPosts.filter(post => post.date).sort((a, b) => {
-		return new Date(b.date).getTime() - new Date(a.date).getTime();
-	});
+	);
+	const sortedPosts = allPosts
+		.filter((post) => post.date)
+		.sort((a, b) => {
+			return new Date(b.date).getTime() - new Date(a.date).getTime();
+		});
 
-	const filteredPosts = sortedPosts.filter(post => {
+	const filteredPosts = sortedPosts.filter((post) => {
 		if (!drafts && post.draft) {
 			return false;
 		}
@@ -93,6 +96,6 @@ export const getAllPosts = async ({
 			return false;
 		}
 		return true;
-	})
+	});
 	return filteredPosts;
-}
+};

@@ -8,7 +8,6 @@ export const load: PageServerLoad = async () => {
 		scheduled: false
 	});
 
-
 	return {
 		posts
 	};

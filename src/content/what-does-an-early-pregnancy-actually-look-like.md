@@ -6,8 +6,8 @@ excerpt: The Guardian have published a set of images that show what the early st
   of pregnancy actually look like, and it's quite surprising.
 featured_image: ''
 page_bg: ''
-
 ---
+
 The Guardian is running an interesting story which highlights how misguided the public generally is on issues like early pregnancy.
 
 Often it's presented as a dichotomy—either one is 'pro-choice' or one is 'pro-life'. I like to consider myself both. I am pro-life in that I believe that consenting adults who know what the consequences of unprotected sex are (or can be) do have some level of responsibility towards an unborn foetus. But I also believe that my own opinion is all but irrelevant in determining what rights other people should have, and I am 100% in support of people having control of their own bodies.
