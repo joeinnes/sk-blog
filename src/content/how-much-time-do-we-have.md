@@ -4,7 +4,7 @@ title: How Much Time Do We Have?
 draft: false
 excerpt: An exploration of how much time we might have left with those we love.
 featured_image: "/media/uploads/photo-1485881697404-78678dbc4639.avif"
-page_bg: ''
+page_bg: rgb(43, 76, 219)
 
 ---
 I was reading [an article recently](https://www.1000hoursoutside.com/blog/time-with-kids-before-age-12) which I found on on HackerNews. It suggests that the adage that you only get 18 summers with your children is not true, but:
