@@ -1,5 +1,5 @@
 ---
-date: 2022-10-20T15:29:22.683Z
+date: 2022-10-20T17:29:22.683Z
 title: How Much Time Do We Have?
 draft: false
 excerpt: An exploration of how much time we might have left with those we love.

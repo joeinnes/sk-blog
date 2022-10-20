@@ -41,5 +41,12 @@ export const companies: Record<string, Company> = {
     l: 47,
     font: 'Urbanist',
     fontImport: 'https://api.fonts.coollabs.io/css2?family=Urbanist:wght@400%3B600%3B700%3B900&display=swap'
+  },
+  spotify: {
+    h: 141,
+    s: 73,
+    l: 42,
+    font: 'Montserrat',
+    fontImport: 'https://api.fonts.coollabs.io/css2?family=Montserrat&display=swap'
   }
 };
