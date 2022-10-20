@@ -1,7 +1,7 @@
 ---
 date: 2022-10-20'T'15:29:22.683+00:00
 title: How Much Time Do We Have?
-draft: true
+draft: false
 excerpt: An exploration of how much time we might have left with those we love.
 featured_image: ''
 page_bg: ''
