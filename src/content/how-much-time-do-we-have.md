@@ -1,12 +1,12 @@
 ---
-date: 2022-10-20T17:29:22.683Z
+date: 2022-10-20T17:29:22.683+00:00
 title: How Much Time Do We Have?
 draft: false
 excerpt: An exploration of how much time we might have left with those we love.
-featured_image: ''
+featured_image: "/media/uploads/photo-1485881697404-78678dbc4639.avif"
 page_bg: ''
----
 
+---
 I was reading [an article recently](https://www.1000hoursoutside.com/blog/time-with-kids-before-age-12) which I found on on HackerNews. It suggests that the adage that you only get 18 summers with your children is not true, but:
 
 > In fact, 75% of the time we spend with our kids in our lifetime will be spent by age 12.
