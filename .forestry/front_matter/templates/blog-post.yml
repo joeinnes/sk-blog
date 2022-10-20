@@ -47,3 +47,5 @@ fields:
     required: false
     color_format: RGB
   description: Pick a colour for the page background
+pages:
+- src/content/how-much-time-do-we-have.md
