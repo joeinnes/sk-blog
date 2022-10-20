@@ -23,6 +23,6 @@ build:
   preview_output_directory: ".svelte-kit/build"
   install_dependencies_command: npm install
   preview_docker_image: node:current-alpine
-  mount_path: "/src"
+  mount_path: "/srv"
   working_dir: "/srv"
   instant_preview_command: npm run dev
