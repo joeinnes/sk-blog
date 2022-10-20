@@ -18,6 +18,7 @@ fields:
     date_format: DD/MM/YYYY h:mm A ZZ
     export_format: YYYY-MM-DD'T'HH:mm:ss.SSSZ
     required: true
+  default: now
 - name: draft
   type: boolean
   label: Draft
