@@ -49,4 +49,5 @@ fields:
   description: Pick a colour for the page background
 pages:
 - src/content/how-much-time-do-we-have.md
+- src/content/sourdough.md
 - src/content/what-does-an-early-pregnancy-actually-look-like.md
