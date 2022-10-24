@@ -2,27 +2,27 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: static/forestry
-webhook_url:
+webhook_url: 
 sections:
-  - type: directory
-    path: src/content
-    label: Posts
-    create: documents
-    match: '**/*.md'
-    templates:
-      - blog-post
+- type: directory
+  path: src/content
+  label: Posts
+  create: documents
+  match: "**/*.md"
+  templates:
+  - blog-post
 upload_dir: static/media/uploads
-public_path: '/media/uploads'
+public_path: "/media/uploads"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ':filename:'
+file_template: ":filename:"
 build:
   preview_env:
-    - PUBLIC_BASE_URL=https://joeinn.es
-    - PUBLIC_NODE_ENV=development
-  preview_output_directory: '.svelte-kit/output/prerendered/pages'
+  - PUBLIC_BASE_URL=https://joeinn.es
+  - PUBLIC_NODE_ENV=development
+  preview_output_directory: ".svelte-kit/output/prerendered/pages"
   install_dependencies_command: npm install
   preview_docker_image: node:current-alpine
-  mount_path: '/srv'
-  working_dir: '/srv'
+  mount_path: "/srv"
+  working_dir: "/srv"
   instant_preview_command: npm run dev
