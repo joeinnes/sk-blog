@@ -39,8 +39,8 @@ export const urlToStatically = (
 	if (options?.f) optionsString += `f=${options.f}`;
 	if (options?.q) optionsString += `q=${options.q}`;
 
-	if ((optionsString = '//')) optionsString = '';
-	return `https://cdn.statically.io/img/${hostname}${pathname}`;
+	if ((optionsString = '/')) optionsString = '';
+	return `https://cdn.statically.io/img/${hostname}${optionsString}${pathname}`;
 };
 
 interface Post {
