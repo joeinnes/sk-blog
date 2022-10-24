@@ -18,10 +18,10 @@ export const dateFormatter = (dateStr: string) => {
 export const urlToStatically = (
 	url: string,
 	options?: {
-		h: number;
-		w: number;
-		f: 'auto';
-		q: number;
+		h?: number;
+		w?: number;
+		f?: 'auto';
+		q?: number;
 	}
 ) => {
 	if (PUBLIC_NODE_ENV !== 'production') {

@@ -23,6 +23,7 @@
 		}).format(date);
 		return formattedDate;
 	};
+	let thisWidth = 0;
 	$page_bg = $page.data.page_bg;
 </script>
 
@@ -44,11 +45,12 @@
 	class="prose lg:prose-xl prose-headings:font-bold prose-zinc article"
 >
 	<div
-		class="aspect-[21/9] header-image content pb-6 "
+		class="aspect-[21/9] header-image content pb-6"
+		bind:clientWidth={thisWidth}
 		class:darken-bottom={data.title_overlays_featured_image}
 		style="
         background-image: url('{data.featured_image
-			? urlToStatically(data.featured_image)
+			? urlToStatically(data.featured_image, { w: thisWidth })
 			: 'https://source.unsplash.com/random/?' + +encodeURIComponent(data.title)}')
       "
 	>
