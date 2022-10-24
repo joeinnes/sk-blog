@@ -43,4 +43,4 @@ I'm also a big believer in the 'fridge scraps' school of starter maintenance—I
  9. Carefully turn out your loaf onto your scorching hot cookware. Use a larm (if you have one), a razor blade, or an exceptionally sharp knife to make an incision about 1/3 of the way across the bread all the way down the length of it. Keep the angle of the blade as shallow as possible, and use a single, smooth, slicing action, rather than a hacking or sawing motion.
 10. Use a spray bottle to cover the loaf in water. Be careful with your hot cookware—if it's prone to exploding when you put cold water on it, then obviously don't do that.
 11. Cook covered for about 15-20 minutes (until the crust starts to set, and the gap between the two edges of the slice along the bread is no longer growing) then take the top off and reduce temperature to about 220ºC, and bake for another 15-20 minutes.
-12. Leave to rest for 1 hour before cutting in and enjoying.
+12. Leave to rest for 1 hour before cutting in and enjoying. 
