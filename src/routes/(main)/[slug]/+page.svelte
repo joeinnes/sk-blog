@@ -57,8 +57,9 @@
 		{#if !$page_bg}
 			<img
 				class="hidden"
-				src={data.featured_image ??
-					'https://source.unsplash.com/random/?' + +encodeURIComponent(data.title)}
+				src={data.featured_image
+					? urlToStatically(data.featured_image, { w: thisWidth })
+					: 'https://source.unsplash.com/random/?' + encodeURIComponent(data.title)}
 				use:getAverageRGB={page_bg}
 				aria-hidden="true"
 				alt="hidden"
