@@ -25,7 +25,7 @@ export const urlToStatically = (
 	}
 ) => {
 	if (PUBLIC_NODE_ENV !== 'production') {
-		// return url;
+		return url;
 	}
 	let urlToConvert = url;
 	if (url.startsWith('/')) {
