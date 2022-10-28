@@ -1,3 +1,3 @@
-# sk-blog
+# Blog
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/sveltejs-kit-template-default-bjhrk4)
+This is a personal blog site which uses MDSVEX under the hood.
