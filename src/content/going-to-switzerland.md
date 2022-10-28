@@ -3,7 +3,7 @@ title: Going To Switzerland
 date: 2022-10-28T18:40:00.000Z
 excerpt: I'm going to Switzerland next week, and I'm super excited.
 featured_image: /media/uploads/zug.jpg
-page_bg: rbg(119, 148, 34)
+page_bg: rgb(119, 148, 34)
 ---
 
 This time next week, I'll be on the sleeper train from Budapest to Zürich. It'll be the first time I've visited my sister, and the first time I get to meet my little niece, who was born just a few weeks after my own son.
