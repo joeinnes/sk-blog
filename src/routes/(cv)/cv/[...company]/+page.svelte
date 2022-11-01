@@ -13,7 +13,7 @@
 </script>
 
 <div class="flex justify-between items-center">
-	<h1 class="text-6xl mb-4 font-bold print:mt-0 print:mb-2">Joe Innes</h1>
+	<h1 class="text-6xl print:text-5xl mb-4 font-bold print:mt-0 print:mb-0">Joe Innes</h1>
 	<div class="text-right">
 		<Address />
 		{#if hasCoverLetter}
@@ -167,9 +167,9 @@
 				pitches for potential new business, preparing RFP/RFI responses and executive summaries.
 			</p>
 		</section>
-		<section class="prose">
+		<section class="prose prose-li:my-0">
 			<h2>Languages</h2>
-			<ul>
+			<ul class="mb-0">
 				<li>English (Native)</li>
 				<li>French (C2)</li>
 				<li>Russian (B2)</li>
@@ -206,13 +206,13 @@
 		color: var(--dark-text);
 	}
 	h3 {
-		@apply text-lg print:leading-none;
+		@apply text-lg print:leading-none print:mb-0;
 	}
 	h4 {
-		@apply text-base print:leading-[1.1em];
+		@apply text-base print:leading-[1.1em] print:mb-0;
 	}
 	h5 {
-		@apply uppercase text-xs;
+		@apply uppercase text-xs print:mb-0;
 	}
 	ul {
 		@apply print:my-0 print:mb-2 print:leading-snug !important;
@@ -224,7 +224,7 @@
 		@apply pl-0 mb-4 print:mb-2;
 	}
 
-	#exp ul li {
+	ul li {
 		@apply print:mb-1 print:mt-0 leading-snug;
 	}
 	p {
