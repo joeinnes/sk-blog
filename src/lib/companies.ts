@@ -48,5 +48,12 @@ export const companies: Record<string, Company> = {
 		l: 42,
 		font: 'Montserrat',
 		fontImport: 'https://api.fonts.coollabs.io/css2?family=Montserrat&display=swap'
+	},
+	nexthink: {
+		h: 230,
+		s: 75,
+		l: 27,
+		font: '"proxima-nova",arial,sans-serif',
+		fontImport: ''
 	}
 };
