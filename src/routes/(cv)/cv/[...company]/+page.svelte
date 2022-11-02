@@ -12,9 +12,11 @@
 	}
 </script>
 
-<div class="flex justify-between items-center">
-	<h1 class="text-6xl print:text-5xl mb-4 font-bold print:mt-0 print:mb-0">Joe Innes</h1>
-	<div class="text-right">
+<div class="flex flex-col w-full md:flex-row justify-between items-center">
+	<h1 class="text-5xl print:text-5xl md:text-6xl mb-4 font-bold print:mt-0 print:mb-0 self-end">
+		Joe Innes
+	</h1>
+	<div class="text-right mb-2 self-end">
 		<Address />
 		{#if hasCoverLetter}
 			<a
@@ -24,7 +26,7 @@
 		{/if}
 	</div>
 </div>
-<div class="grid grid-cols-3 gap-2 divide-x">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-2 md:divide-x">
 	<div class="col-span-2 column">
 		<section id="exp">
 			<h2>Experience</h2>
