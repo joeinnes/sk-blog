@@ -13,7 +13,9 @@
 </script>
 
 <div class="flex flex-col w-full md:flex-row justify-between items-center">
-	<h1 class="text-5xl print:text-5xl md:text-6xl mb-4 font-bold print:mt-0 print:mb-0 self-end">
+	<h1
+		class="text-5xl print:text-5xl md:text-7xl mb-4 font-bold print:mt-0 print:mb-0 self-end md:self-center"
+	>
 		Joe Innes
 	</h1>
 	<div class="text-right mb-2 self-end">
