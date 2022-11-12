@@ -111,7 +111,7 @@
 	}
 
 	:global(img, .full-bleed, p:has(img), .content > p:has(img)) {
-		@apply max-w-full w-full p-0;
+		@apply max-w-full w-full p-0 rounded-none;
 		grid-column: 1 / -1 !important;
 	}
 </style>
