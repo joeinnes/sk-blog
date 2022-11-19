@@ -14,7 +14,7 @@
 	style="
   --page-background: {$page.routeId === '(main)' ? 'white' : $page_bg};
 "
-	class="page_bg"
+	class="page_bg print:px-4"
 >
 	<header>
 		<nav>

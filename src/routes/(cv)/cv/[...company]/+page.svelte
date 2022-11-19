@@ -12,13 +12,15 @@
 	}
 </script>
 
-<div class="flex flex-col w-full md:flex-row justify-between items-center">
+<div
+	class="flex flex-col w-full md:flex-row print:flex-row justify-between items-center prose-h1:print:mb-0 print:mb-2"
+>
 	<h1
-		class="text-5xl print:text-5xl md:text-7xl mb-4 font-bold print:mt-0 print:mb-0 self-end md:self-center"
+		class="text-5xl print:text-6xl md:text-7xl mb-4 font-bold print:mt-0  self-end md:self-center print:self-center"
 	>
 		Joe Innes
 	</h1>
-	<div class="text-right mb-2 self-end">
+	<div class="text-right mb-2 self-end print:self-center">
 		<Address />
 		{#if hasCoverLetter}
 			<a
@@ -28,7 +30,7 @@
 		{/if}
 	</div>
 </div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-2 md:divide-x">
+<div class="grid grid-cols-1 print:grid-cols-3 md:grid-cols-3 gap-2 md:divide-x">
 	<div class="col-span-2 column">
 		<section id="exp">
 			<h2>Experience</h2>
@@ -200,12 +202,12 @@
 	h4,
 	h5,
 	h6 {
-		@apply my-1 table leading-tight break-before-auto break-after-avoid-page print:my-0 print:mb-0 !important;
+		@apply my-1 table leading-tight break-before-auto break-after-avoid-page  !important;
 		color: var(--semi-dark-text);
 	}
 	.prose h1,
 	h2 {
-		@apply border-b-4 my-2 print:my-0 !important;
+		@apply border-b-4 my-2 print:my-0 print:mb-1 print:leading-none !important;
 		border-color: var(--accent);
 		color: var(--dark-text);
 	}

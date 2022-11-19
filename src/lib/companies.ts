@@ -55,5 +55,12 @@ export const companies: Record<string, Company> = {
 		l: 27,
 		font: '"proxima-nova",arial,sans-serif',
 		fontImport: ''
+	},
+	victorinox: {
+		h: 342,
+		s: 100,
+		l: 35,
+		font: 'Helvetica,arial,sans-serif',
+		fontImport: ''
 	}
 };
