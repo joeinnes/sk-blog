@@ -62,5 +62,12 @@ export const companies: Record<string, Company> = {
 		l: 35,
 		font: 'Helvetica,arial,sans-serif',
 		fontImport: ''
+	},
+	siemens: {
+		h: 180,
+		s: 100,
+		l: 30,
+		font: 'arial,sans-serif',
+		fontImport: ''
 	}
 };
