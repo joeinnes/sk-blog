@@ -3,6 +3,7 @@ title: Zug.
 date: 2022-11-11T17:14:00.000Z
 featured_image: /media/uploads/zugersee.jpeg
 page_bg: hsl(48, 78%, 45%)
+excerpt: A small town with charm, mountain and lake views, and 30% rich expats. What's not to like.
 ---
 
 What an amazing place.

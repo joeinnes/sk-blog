@@ -3,6 +3,7 @@ title: Signing Out of Twitter
 date: 2022-11-20T19:43:00.000Z
 featured_image: /media/uploads/fail-whale.jpg
 page_bg: hsl(206, 82%, 63%)
+excerpt: Elon Musk is ruining Twitter, and potentially the world.
 ---
 
 I've tweeted my last. I've always found Twitter a bit problematic (less so than Facebook, but still...), but this recent business with Elon Musk has really been the final straw.
