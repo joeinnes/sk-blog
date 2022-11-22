@@ -23,7 +23,7 @@
 				bind:this={searchbar}
 				bind:value={searchString}
 				on:blur={() => (search = false)}
-				class="absolute right-0 left-0 top-0 bottom-0 border-b-2 outline-none text-xl focus-within:border-b-black transition-colors"
+				class="absolute right-0 left-0 top-0 bottom-0 border-b-2 outline-none text-xl focus-within:border-b-black transition-colors bg-white p-2"
 				placeholder="Search..."
 			/>
 		{/if}
@@ -54,19 +54,21 @@
 	</div>
 
 	<div
-		class="post-list text-ellipsis overflow-hidden"
+		class="post-list text-ellipsis overflow-hidden divide-y"
 		use:autoAnimate
 		style="--border-bottom-hover: black"
 	>
 		{#each posts as post, i}
 			{#if post?.title?.toLowerCase().indexOf(searchString.toLowerCase()) > -1}
-				<a href="/{post.slug}">
-					<article
-						class="post hvr-underline-from-left w-full"
-						style="--border-bottom-hover: {post.page_bg ?? 'currentColor'}"
-					>
-						<div class="flex-1 py-8">
-							<h2 class="post-title">{post.title}</h2>
+				<a href="/{post.slug}" class="py-4 flex-1 w-full group">
+					<article class="post">
+						<div class="py-4 w-full">
+							<h2
+								class="post-title hvr-underline-from-left"
+								style="--border-bottom-hover: {post.page_bg ?? 'currentColor'}"
+							>
+								{post.title}
+							</h2>
 							<p class="post-date">{dateFormatter(post.date)}</p>
 							{#if post.excerpt}
 								<p class="post-excerpt">{post.excerpt}</p>
@@ -81,7 +83,7 @@
 
 <style>
 	.post-list {
-		@apply flex flex-col divide-y px-4 lg:px-0;
+		@apply flex flex-col px-4 lg:px-0;
 	}
 	.post-list .post:first-child {
 		@apply pt-0;
@@ -97,7 +99,7 @@
 	}
 
 	.post-excerpt {
-		@apply font-light text-gray-700;
+		@apply font-normal text-gray-700;
 	}
 
 	.hvr-underline-from-left {
@@ -125,9 +127,9 @@
 		-webkit-transition-timing-function: ease-out;
 		transition-timing-function: ease-out;
 	}
-	.hvr-underline-from-left:hover:before,
-	.hvr-underline-from-left:focus:before,
-	.hvr-underline-from-left:active:before {
+	a:hover .hvr-underline-from-left:before,
+	a:focus .hvr-underline-from-left:before,
+	a:active .hvr-underline-from-left:before {
 		right: 0;
 	}
 </style>
