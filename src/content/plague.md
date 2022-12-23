@@ -2,7 +2,7 @@
 title: Plague House
 date: 2022-11-23T14:19:00.000Z
 featured_image: /media/uploads/covid.jpg
-page_bg: #952928
+page_bg: '#952928'
 excerpt: After two years of ducking and diving, finally COVID-19 catches up with me.
 ---
 
