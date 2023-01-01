@@ -2,7 +2,7 @@
 title: First Full Year
 date: 2022-12-31T23:59:59.999Z
 featured_image: /media/uploads/sandi.jpeg
-page_bg: hsl(167, 0.98, 0.17)
+page_bg: hsl(167, 98%, 17%)
 excerpt: In which I become a dad, an uncle, a brother-in-law, and miss my sister.
 ---
 
